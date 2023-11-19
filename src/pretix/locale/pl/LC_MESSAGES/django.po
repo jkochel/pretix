@@ -3558,7 +3558,7 @@ msgstr "Domniemany"
 
 #: pretix/base/models/customers.py:382
 msgid "OpenID Connect access (required)"
-msgstr "OpenId Connect Access (wymagany)"
+msgstr "OpenID Connect Access (wymagany)"
 
 #: pretix/base/models/customers.py:383
 msgid "Profile data (name, addresses)"
@@ -6023,7 +6023,7 @@ msgid ""
 "The seat \"{id}\" is currently unavailable (blocked, already sold or a "
 "different voucher)."
 msgstr ""
-"Miejsce \"{id}\"" jest obecnie niedostępne (jest zablokowane, sprzedane lub "
+"Miejsce \"{id}\" jest obecnie niedostępne (jest zablokowane, sprzedane lub "
 "dotyczy innego voucheru)."
 
 #: pretix/base/models/vouchers.py:500
@@ -6866,7 +6866,7 @@ msgstr "Zakres dat wydarzenia"
 
 #: pretix/base/pdf.py:241
 msgid "May 31st – June 4th, 2017"
-msgstr "31 maja - 4 czerwca 2017"
+msgstr "31 maja – 4 czerwca 2017"
 
 #: pretix/base/pdf.py:245
 msgid "Event begin date and time"
@@ -7413,7 +7413,7 @@ msgstr ""
 #: pretix/base/services/cart.py:165
 #, python-format
 msgid "This voucher code can only be redeemed %d more times."
-msgstr "Ten kod kuponów można wymienić tylko %D więcej razy."
+msgstr "Ten kod kuponów można wymienić tylko %d więcej razy."
 
 #: pretix/base/services/cart.py:166
 msgid ""
@@ -7451,9 +7451,9 @@ msgid ""
 "for. If you want to add something new to your cart using that voucher, you "
 "can do so with the voucher redemption option on the bottom of the page."
 msgstr ""
-"Nie znaleźliśmy w Twoim koszyku żadnej pozycji, na którą moglibyśmy wykorzystać ten kupon. Jeśli chcesz dodać coś nowego do koszyka za pomocą tego kuponu, możesz to zrobić za pomocą opcji realizacji kuponu na dole strony. "
-"Jeśli chcesz dodać coś nowego do koszyka za pomocą tego kuponu, możesz to zrobić za pomocą opcji realizacji kuponu na dole strony. "
-"możesz to zrobić za pomocą opcji realizacji kuponu na dole strony."
+"Nie znaleźliśmy w Twoim koszyku żadnej pozycji, na którą moglibyśmy wykorzystać ten kupon. "
+"Jeśli chcesz dodać coś nowego do koszyka za pomocą tego kuponu, możesz to zrobić za pomocą "
+"opcji realizacji kuponu na dole strony."
 
 #: pretix/base/services/cart.py:180
 msgid "Your voucher is valid for a product that is currently not for sale."
@@ -7512,8 +7512,8 @@ msgid ""
 "You can select every add-ons from the category %(cat)s for the product "
 "%(base)s at most once."
 msgstr ""
-"Możesz wybrać wszystkie dodatki z kategorii %(cat) dla produktu "
-"%(base) najwyżej raz."
+"Możesz wybrać wszystkie dodatki z kategorii %(cat)s dla produktu "
+"%(base)s najwyżej raz."
 
 #: pretix/base/services/cart.py:197
 msgid ""
@@ -7784,13 +7784,13 @@ msgstr ""
 #, python-brace-format
 msgctxt "invoice"
 msgid "Event location: {location}"
-msgstr "Lokalizacja wydarzenia: {lokalizacja}"
+msgstr "Lokalizacja wydarzenia: {location}"
 
 #: pretix/base/services/invoices.py:236
 #, python-brace-format
 msgctxt "invoice"
 msgid "Attendee: {name}"
-msgstr "Uczestnik: {Nazwa}"
+msgstr "Uczestnik: {name}"
 
 #: pretix/base/services/invoices.py:254 pretix/plugins/reports/exporters.py:297
 msgctxt "subevent"
@@ -7837,8 +7837,8 @@ msgstr ""
 "\n"
 "Utworzono nową fakturę dla zamówienia {order} na {event}, patrz załącznik. \n"
 "\n"
-"Wysyłamy tę wiadomość e-mail, ponieważ skonfigurowano to "
-"w ustawieniach wydarzenia."
+"Wysyłamy tę wiadomość e-mail, ponieważ skonfigurowano to w ustawieniach "
+"wydarzenia."
 
 #: pretix/base/services/mail.py:268
 #, python-brace-format
@@ -7846,8 +7846,8 @@ msgid ""
 "You are receiving this email because someone placed an order for {event} for "
 "you."
 msgstr ""
-"Otrzymujesz ten e -mail, ponieważ ktoś złożył zamówienie na {event} "
-"w Twoim imieniu."
+"Otrzymujesz ten e-mail, ponieważ ktoś złożył zamówienie na {event} w Twoim "
+"imieniu."
 
 #: pretix/base/services/mail.py:272 pretix/base/services/mail.py:288
 #, python-brace-format
@@ -7861,7 +7861,7 @@ msgstr ""
 #: pretix/base/services/mail.py:284
 #, python-brace-format
 msgid "You are receiving this email because you placed an order for {event}."
-msgstr "Otrzymujesz ten e -mail, ponieważ złożyłeś zamówienie na {zdarzenie}."
+msgstr "Otrzymujesz ten e-mail, ponieważ złożyłeś zamówienie na {event}."
 
 #: pretix/base/services/mail.py:459
 #, fuzzy
@@ -8180,7 +8180,7 @@ msgid ""
 "The selected base position does not allow you to add this product as an add-"
 "on."
 msgstr ""
-"Wybrana pozycja podstawowa nie pozwala dodawać tego produktu jako produkt"
+"Wybrana pozycja podstawowa nie pozwala dodawać tego produktu jako produkt "
 "dodatkowy."
 
 #: pretix/base/services/orders.py:1496
@@ -8496,7 +8496,7 @@ msgstr ""
 
 #: pretix/base/settings.py:390
 msgid "Require email addresses per ticket"
-msgstr "Wymagaj adresów e -mail dla każdego biletu"
+msgstr "Wymagaj adresów e-mail dla każdego biletu"
 
 #: pretix/base/settings.py:391
 msgid ""
@@ -8678,7 +8678,7 @@ msgid ""
 "The expiration date will not be shown if the invoice is generated after the "
 "order is paid."
 msgstr ""
-"Data ważności nie zostanie wyświetlona, ​​jeśli faktura zostanie wygenerowana po "
+"Data ważności nie zostanie wyświetlona, jeśli faktura zostanie wygenerowana po "
 "opłaceniu zamówienia."
 
 #: pretix/base/settings.py:647
@@ -9047,7 +9047,7 @@ msgstr ""
 
 #: pretix/base/settings.py:1208
 msgid "Attach invoices to emails"
-msgstr "Dołącz faktury do e -maili"
+msgstr "Dołącz faktury do e-maili"
 
 #: pretix/base/settings.py:1209
 msgid ""
@@ -9059,7 +9059,7 @@ msgstr ""
 
 #: pretix/base/settings.py:1221
 msgid "Email address to receive a copy of each invoice"
-msgstr "Adres e -mail, na który zostanie wysłana kopia każdej faktury"
+msgstr "Adres e-mail, na który zostanie wysłana kopia każdej faktury"
 
 #: pretix/base/settings.py:1222
 msgid ""
@@ -9305,7 +9305,7 @@ msgstr ""
 
 #: pretix/base/settings.py:1548
 msgid "Do not issue ticket before email address is validated"
-msgstr "Nie wystawiaj biletu przed zatwierdzeniem adresu e -mail"
+msgstr "Nie wystawiaj biletu przed zatwierdzeniem adresu e-mail"
 
 #: pretix/base/settings.py:1549
 msgid ""
@@ -9765,7 +9765,7 @@ msgstr ""
 "Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2102
@@ -9788,12 +9788,12 @@ msgid ""
 msgstr ""
 "Witaj,\n"
 "\n"
-"Ktoś poprosił o listę twoich zamówień na {event}. \n"
-"Oto lista: \n"
+"Ktoś poprosił o listę twoich zamówień na {event}.\n"
+"Oto lista:\n"
 "\n"
-"{orders} \n"
+"{orders}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2122
@@ -9811,12 +9811,12 @@ msgid ""
 msgstr ""
 "Witaj {attendee_name},\n"
 "\n"
-"Zapisałeś się na {event}. \n"
+"Zapisałeś się na {event}.\n"
 "\n"
-"Możesz wyświetlić szczegóły i status biletu pod adresem:\"
+"Możesz wyświetlić szczegóły i status biletu pod adresem:\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2142
@@ -9835,13 +9835,13 @@ msgid ""
 msgstr ""
 "Witaj,\n"
 "\n"
-"Twoje zamówienie na {event} udało się. Jeśli zamawiałeś tylko produkty bezpłatne , \n"
-"płatność nie jest wymagana. \n"
+"Twoje zamówienie na {event} udało się. Jeśli zamawiałeś tylko produkty bezpłatne,\n"
+"płatność nie jest wymagana.\n"
 "\n"
 "Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2159
@@ -9861,14 +9861,14 @@ msgid ""
 msgstr ""
 "Witaj,\n"
 "\n"
-"Otrzymaliśmy zamówienie na {event}. Ponieważ zamówiłeś \n"
-"produkt, który wymaga zatwierdzenia przez organizatora wydarzenia, prosimy o \n"
-"cierpliwość i poczekanie na następny e -mail. \n"
+"Otrzymaliśmy zamówienie na {event}. Ponieważ zamówiłeś\n"
+"produkt, który wymaga zatwierdzenia przez organizatora wydarzenia, prosimy o\n"
+"cierpliwość i poczekanie na następny e-mail.\n"
 "\n"
 "Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2177
@@ -9899,7 +9899,7 @@ msgstr ""
 "Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2195
@@ -9937,10 +9937,10 @@ msgstr ""
 "\n"
 "Zostało złożone zamówienie na bilet na {event} w Twoim imieniu.\n"
 "\n"
-"Możesz wyświetlić szczegóły i status biletu pod adresem:\"
+"Możesz wyświetlić szczegóły i status biletu pod adresem:\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2239
@@ -9969,7 +9969,7 @@ msgstr ""
 "Możesz wyświetlić status swojego zamówienia pod adresem\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2255
@@ -10001,7 +10001,7 @@ msgstr ""
 "Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2277
@@ -10027,10 +10027,10 @@ msgstr ""
 "\n"
 "Bilet na {event}, który został dla ciebie zamówiony, został opłacony.\n"
 "\n"
-"Możesz wyświetlić szczegóły i status biletu pod adresem:\"
+"Możesz wyświetlić szczegóły i status biletu pod adresem:\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2298 pretix/control/forms/event.py:1107
@@ -10071,10 +10071,10 @@ msgstr ""
 "Pamiętaj, że Twoje zamówienie będzi pewne tylko wtedy, jeżeli otrzymamy\n"
 "Twoją płatność przed {expire_date}.\n"
 "\n"
-"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod adresem \n"
+"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod adresem\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2326
@@ -10102,10 +10102,10 @@ msgstr ""
 "Nie otrzymaliśmy jeszcze pełnej płatności za zamówienie na {event}.\n"
 "Pamiętaj, że należy zapłacić przed {expire_date}.\n"
 "\n"
-"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod adresem \n"
+"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod adresem\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2343
@@ -10139,10 +10139,10 @@ msgstr ""
 "Twoje zamówienie jest zatem nadal uznawane za nieppłacone, ponieważ brakuje\n"
 "jeszcze kwoty **{pending_sum}**.\n"
 "\n"
-"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod adresem \n"
+"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod adresem\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2363
@@ -10179,7 +10179,7 @@ msgstr ""
 "Możesz spróbować zapłacić jeszcze raz i wyświetlić status Twojego zamówienia pod adresem\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2381
@@ -10241,7 +10241,7 @@ msgstr ""
 "\n"
 "{url_remove}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2414
@@ -10274,7 +10274,7 @@ msgstr ""
 "Możesz wyświetlić szczegóły Twojego zamówienia pod adresem\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2432
@@ -10310,7 +10310,7 @@ msgstr ""
 "\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2460 pretix/base/settings.py:2497
@@ -10330,10 +10330,10 @@ msgstr ""
 "\n"
 "Zatwierdziliśmy zamówiony dla Ciebie bilet na {event}.\n"
 "\n"
-"Możesz wyświetlić szczegóły i status biletu pod adresem:\"
+"Możesz wyświetlić szczegóły i status biletu pod adresem:\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2472
@@ -10363,7 +10363,7 @@ msgstr ""
 "Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2509
@@ -10398,7 +10398,7 @@ msgstr ""
 "\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2528
@@ -10417,7 +10417,7 @@ msgstr ""
 "Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2546 pretix/base/settings.py:2562
@@ -10446,7 +10446,7 @@ msgstr ""
 "Jeśli jeszcze nie masz pobranego biletu, możesz to zrobić tutaj:\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2566
@@ -10469,7 +10469,7 @@ msgstr ""
 "Jeśli jeszcze nie masz pobranego biletu, możesz to zrobić tutaj:\n"
 "{url}\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "Zespół {event}"
 
 #: pretix/base/settings.py:2578
@@ -10496,7 +10496,7 @@ msgid ""
 "\n"
 "Your {organizer} team"
 msgstr ""
-"Witaj {nazwa},\n"
+"Witaj {name},\n"
 "\n"
 "Dziękujemy za otworzenie konta w {organizer}!\n"
 "\n"
@@ -10506,9 +10506,9 @@ msgstr ""
 "\n"
 "Ten link jest ważny przez jeden dzień.\n"
 "\n"
-"Jeśli to nie Ty się rejestrowałas(eś), zignoruj ​​ten e-mail.\n"
+"Jeśli to nie Ty się rejestrowałas(eś), zignoruj ten e-mail.\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "\n"
 "Zespół {organizer}"
 
@@ -10536,7 +10536,7 @@ msgid ""
 "\n"
 "Your {organizer} team"
 msgstr ""
-"Witaj {nazwa},\n"
+"Witaj {name},\n"
 "\n"
 "Prosiłaś(eś) o zmianę adresu e-mail swojego konta w {organizer},\n"
 "\n"
@@ -10546,9 +10546,9 @@ msgstr ""
 "\n"
 "Ten link jest ważny przez jeden dzień.\n"
 "\n"
-"Jeśli to nie Ty prosiłaś(eś) o to, zignoruj ​​ten e-mail.\n"
+"Jeśli to nie Ty prosiłaś(eś) o to, zignoruj ten e-mail.\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "\n"
 "Zespół {organizer}"
 
@@ -10576,7 +10576,7 @@ msgid ""
 "\n"
 "Your {organizer} team"
 msgstr ""
-"Witaj {nazwa},\n"
+"Witaj {name},\n"
 "\n"
 "Prosiłaś(eś) o nowe hasło do swojego konta w {organizer},\n"
 "\n"
@@ -10586,9 +10586,9 @@ msgstr ""
 "\n"
 "Ten link jest ważny przez jeden dzień.\n"
 "\n"
-"Jeśli to nie Ty prosiłaś(eś) o nowe hasło, zignoruj ​​ten e-mail.\n"
+"Jeśli to nie Ty prosiłaś(eś) o nowe hasło, zignoruj ten e-mail.\n"
 "\n"
-"Pozdrawiamy,\n"
+"Pozdrawiamy,  \n"
 "\n"
 "Zespół {organizer}"
 
@@ -11382,7 +11382,7 @@ msgid ""
 "You are receiving this email because you placed an order for the following "
 "event:"
 msgstr ""
-"Otrzymujesz ten e -mail, ponieważ złożyłeś zamówienie na następujące "
+"Otrzymujesz ten e-mail, ponieważ złożyłeś zamówienie na następujące "
 "wydarzenie:"
 
 #: pretix/base/templates/pretixbase/email/order_details.html:86
@@ -11802,7 +11802,7 @@ msgstr ""
 #: pretix/base/validators.py:51
 #, python-format
 msgid "This field has an invalid value: %(value)s."
-msgstr "To pole ma nieprawidłową wartość: %(value)."
+msgstr "To pole ma nieprawidłową wartość: %(value)s."
 
 #: pretix/base/views/errors.py:48
 msgid ""
@@ -11865,8 +11865,8 @@ msgid ""
 msgstr ""
 "Tłumaczenia te nie są utrzymywane przez zespół Pretrix. Nie odpowiadamy "
 "za ich poprawność, a nowe lub niedawno zmienione funkcje mogły jeszcze nie zostać "
-"przetłumaczone i zamiast tego pokażą się po angielsku. Możesz < "
-"href = \ "{tłumacz_url} \" target = \ "_ blank \"> Pomóc w tłumaczeniu </a>."
+"przetłumaczone i zamiast tego pokażą się po angielsku. Możesz <a "
+"href=\"{translate_url}\" target=\"_blank\">Pomóc w tłumaczeniu</a>."
 
 #: pretix/control/forms/__init__.py:334
 msgid "Development only"
@@ -12081,7 +12081,7 @@ msgid ""
 "You have configured gift cards to be valid {} years plus the year the gift "
 "card is issued in."
 msgstr ""
-"Skonfigurowałeś karty podarunkowe, aby były ważne {} lata plus rok,w którym "
+"Skonfigurowałeś karty podarunkowe, aby były ważne {} lata plus rok, w którym "
 "wydano kartę podarunkowoą."
 
 #: pretix/control/forms/event.py:764
@@ -12166,7 +12166,7 @@ msgstr "Adres BCC"
 
 #: pretix/control/forms/event.py:967 pretix/control/forms/organizer.py:526
 msgid "All emails will be sent to this address as a Bcc copy"
-msgstr "Wszystkie e -maile zostaną wysłane na ten adres jako kopia BCC"
+msgstr "Wszystkie e-maile zostaną wysłane na ten adres jako kopia BCC"
 
 #: pretix/control/forms/event.py:973 pretix/control/forms/organizer.py:532
 msgid "Signature"
@@ -30973,8 +30973,8 @@ msgid ""
 "you placed using this email address."
 msgstr ""
 "Jeśli zgubiłeś link do zamówienia lub zamówień, wprowadź adres e-mail, który "
-"użyłeś składając zamówienie. Wyślemy Ci wiadomość e -mail z linkami do wszystkich zamówień "
-"złożonych za pomocą tego adresu e -mail."
+"użyłeś składając zamówienie. Wyślemy Ci wiadomość e-mail z linkami do wszystkich zamówień "
+"złożonych za pomocą tego adresu e-mail."
 
 #: pretix/presale/templates/pretixpresale/event/resend_link.html:30
 msgid "Send links"
@@ -31049,7 +31049,7 @@ msgid ""
 msgstr ""
 "Pamiętaj, że otrzymasz tylko jeden bilet. Jeśli potrzebujesz wielu biletów, "
 "musisz wpisać się na listę rezerwową odpowiednio więcej razy. Nie ma "
-"gwarancji, że ​​otrzymasz określoną liczbę biletów."
+"gwarancji, że otrzymasz określoną liczbę biletów."
 
 #: pretix/presale/templates/pretixpresale/event/waitinglist.html:32
 msgid ""
@@ -31060,7 +31060,7 @@ msgid ""
 msgstr ""
 "Pamiętaj, że otrzymasz tylko jeden bilet. Jeśli potrzebujesz wielu biletów, "
 "musisz wpisać się na listę rezerwową więcej razy, podając różne "
-"adresy e -mail. Nie ma gwarancji, że otrzymasz określoną "
+"adresy e-mail. Nie ma gwarancji, że otrzymasz określoną "
 "liczbę biletów."
 
 #: pretix/presale/templates/pretixpresale/event/waitinglist.html:39
@@ -31553,7 +31553,7 @@ msgstr "Twoje nowe hasło zostało ustawione! Możesz go teraz użyć do logowan
 msgid ""
 "We've sent you an email with further instructions on resetting your password."
 msgstr ""
-"Wysłaliśmy Ci wiadomość e -mail z dalszymi instrukcjami na temat resetowania hasła."
+"Wysłaliśmy Ci wiadomość e-mail z dalszymi instrukcjami na temat resetowania hasła."
 
 #: pretix/presale/views/customer.py:524
 msgid ""
@@ -31561,7 +31561,7 @@ msgid ""
 "your email address. The email address of your account will be changed as "
 "soon as you click that link."
 msgstr ""
-"Twoje zmiany zostały zapisane. Wysłaliśmy Ci e -mail z linkiem do aktualizacji "
+"Twoje zmiany zostały zapisane. Wysłaliśmy Ci e-mail z linkiem do aktualizacji "
 "twojego adresu e-mail. Adres e-mail Twojego konta zostanie zmieniony "
 "po kliknięciu tego linku."
 
@@ -31570,7 +31570,7 @@ msgid ""
 "Your email address has not been updated since the address is already in use "
 "for another customer account."
 msgstr ""
-"Twój adres e -mail nie został zaktualizowany, ponieważ adres jest już używany "
+"Twój adres e-mail nie został zaktualizowany, ponieważ adres jest już używany "
 "przez inne konto."
 
 #: pretix/presale/views/customer.py:576
@@ -31714,8 +31714,8 @@ msgid ""
 "and also double check that you used the correct email address."
 msgstr ""
 "Jeśli wprowadzony przez Ciebie adres e-mail jest poprawny i powiązany z biletem, "
-"to już wcześniej wysłaliśmy Ci e-mail z odnośnikiem do Twojego biletu w ciągu ostatnich {number} godzin. Jeżeli e-mail nie dotarł, proszę sprawdzić folder ze spamem oraz upewnić się, że wprowadziłeś poprawny adres e-mail. "
-"{number} godzin. Jeżeli e-mail nie dotarł, proszę sprawdzić folder ze spamem oraz upewnić się, że wprowadziłeś poprawny adres e-mail. "
+"to już wcześniej wysłaliśmy Ci e-mail z odnośnikiem do Twojego biletu w ciągu ostatnich "
+"{number} godzin. Jeżeli e-mail nie dotarł, proszę sprawdzić folder ze spamem "
 "oraz upewnić się, że wprowadziłeś poprawny adres e-mail."
 
 #: pretix/presale/views/user.py:91
@@ -31727,8 +31727,8 @@ msgid ""
 "If there were any orders by this user, they will receive an email with their "
 "order codes."
 msgstr ""
-"Jeśli ten użytkownik złożył jakiekolwiek zamówienia, otrzyma e-mail z kodami swoich zamówień. "
-"otrzyma e-mail z kodami swoich zamówień."
+"Jeśli ten użytkownik złożył jakiekolwiek zamówienia, otrzyma e-mail z kodami "
+"swoich zamówień."
 
 #: pretix/presale/views/waiting.py:96
 msgid "Waiting lists are disabled for this event."
