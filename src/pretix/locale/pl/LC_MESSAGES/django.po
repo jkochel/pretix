@@ -7455,10 +7455,16 @@ msgid ""
 "for. If you want to add something new to your cart using that voucher, you "
 "can do so with the voucher redemption option on the bottom of the page."
 msgstr ""
+<<<<<<< HEAD
 "Nie znaleźliśmy w Twoim koszyku żadnej pozycji, na którą moglibyśmy "
 "wykorzystać ten kupon. Jeśli chcesz dodać coś nowego do koszyka za pomocą "
 "tego kuponu, możesz to zrobić za pomocą opcji realizacji kuponu na dole "
 "strony."
+=======
+"Nie znaleźliśmy w Twoim koszyku żadnej pozycji, na którą moglibyśmy wykorzystać ten kupon. "
+"Jeśli chcesz dodać coś nowego do koszyka za pomocą tego kuponu, możesz to zrobić za pomocą "
+"opcji realizacji kuponu na dole strony."
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 
 #: pretix/base/services/cart.py:180
 msgid "Your voucher is valid for a product that is currently not for sale."
@@ -7517,8 +7523,13 @@ msgid ""
 "You can select every add-ons from the category %(cat)s for the product "
 "%(base)s at most once."
 msgstr ""
+<<<<<<< HEAD
 "Możesz wybrać wszystkie dodatki z kategorii %(cat)s dla produktu %(base)s "
 "najwyżej raz."
+=======
+"Możesz wybrać wszystkie dodatki z kategorii %(cat)s dla produktu "
+"%(base)s najwyżej raz."
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 
 #: pretix/base/services/cart.py:197
 msgid ""
@@ -8682,8 +8693,13 @@ msgid ""
 "The expiration date will not be shown if the invoice is generated after the "
 "order is paid."
 msgstr ""
+<<<<<<< HEAD
 "Data ważności nie zostanie wyświetlona, jeśli faktura zostanie wygenerowana "
 "po opłaceniu zamówienia."
+=======
+"Data ważności nie zostanie wyświetlona, jeśli faktura zostanie wygenerowana po "
+"opłaceniu zamówienia."
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 
 #: pretix/base/settings.py:647
 msgid "Minimum length of invoice number after prefix"
@@ -9848,8 +9864,12 @@ msgid ""
 msgstr ""
 "Witaj,\n"
 "\n"
+<<<<<<< HEAD
 "Twoje zamówienie na {event} udało się. Jeśli zamawiałeś tylko produkty "
 "bezpłatne,\n"
+=======
+"Twoje zamówienie na {event} udało się. Jeśli zamawiałeś tylko produkty bezpłatne,\n"
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 "płatność nie jest wymagana.\n"
 "\n"
 "Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod "
@@ -9877,8 +9897,12 @@ msgstr ""
 "Witaj,\n"
 "\n"
 "Otrzymaliśmy zamówienie na {event}. Ponieważ zamówiłeś\n"
+<<<<<<< HEAD
 "produkt, który wymaga zatwierdzenia przez organizatora wydarzenia, prosimy "
 "o\n"
+=======
+"produkt, który wymaga zatwierdzenia przez organizatora wydarzenia, prosimy o\n"
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 "cierpliwość i poczekanie na następny e-mail.\n"
 "\n"
 "Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod "
@@ -10089,8 +10113,12 @@ msgstr ""
 "Pamiętaj, że Twoje zamówienie będzi pewne tylko wtedy, jeżeli otrzymamy\n"
 "Twoją płatność przed {expire_date}.\n"
 "\n"
+<<<<<<< HEAD
 "Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod "
 "adresem\n"
+=======
+"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod adresem\n"
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -10121,8 +10149,12 @@ msgstr ""
 "Nie otrzymaliśmy jeszcze pełnej płatności za zamówienie na {event}.\n"
 "Pamiętaj, że należy zapłacić przed {expire_date}.\n"
 "\n"
+<<<<<<< HEAD
 "Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod "
 "adresem\n"
+=======
+"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod adresem\n"
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -10159,8 +10191,12 @@ msgstr ""
 "Twoje zamówienie jest zatem nadal uznawane za nieppłacone, ponieważ brakuje\n"
 "jeszcze kwoty **{pending_sum}**.\n"
 "\n"
+<<<<<<< HEAD
 "Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod "
 "adresem\n"
+=======
+"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod adresem\n"
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -11891,10 +11927,17 @@ msgid ""
 "translated and will show in English instead. You can <a "
 "href=\"{translate_url}\" target=\"_blank\">help translating</a>."
 msgstr ""
+<<<<<<< HEAD
 "Tłumaczenia te nie są utrzymywane przez zespół Pretrix. Nie odpowiadamy za "
 "ich poprawność, a nowe lub niedawno zmienione funkcje mogły jeszcze nie "
 "zostać przetłumaczone i zamiast tego pokażą się po angielsku. Możesz <a href="
 "\"{translate_url}\" target=\"_blank\">Pomóc w tłumaczeniu</a>."
+=======
+"Tłumaczenia te nie są utrzymywane przez zespół Pretrix. Nie odpowiadamy "
+"za ich poprawność, a nowe lub niedawno zmienione funkcje mogły jeszcze nie zostać "
+"przetłumaczone i zamiast tego pokażą się po angielsku. Możesz <a "
+"href=\"{translate_url}\" target=\"_blank\">Pomóc w tłumaczeniu</a>."
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 
 #: pretix/control/forms/__init__.py:334
 msgid "Development only"
@@ -31003,8 +31046,13 @@ msgid ""
 "you placed using this email address."
 msgstr ""
 "Jeśli zgubiłeś link do zamówienia lub zamówień, wprowadź adres e-mail, który "
+<<<<<<< HEAD
 "użyłeś składając zamówienie. Wyślemy Ci wiadomość e-mail z linkami do "
 "wszystkich zamówień złożonych za pomocą tego adresu e-mail."
+=======
+"użyłeś składając zamówienie. Wyślemy Ci wiadomość e-mail z linkami do wszystkich zamówień "
+"złożonych za pomocą tego adresu e-mail."
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 
 #: pretix/presale/templates/pretixpresale/event/resend_link.html:30
 msgid "Send links"
@@ -31089,8 +31137,14 @@ msgid ""
 "number of tickets."
 msgstr ""
 "Pamiętaj, że otrzymasz tylko jeden bilet. Jeśli potrzebujesz wielu biletów, "
+<<<<<<< HEAD
 "musisz wpisać się na listę rezerwową więcej razy, podając różne adresy e-"
 "mail. Nie ma gwarancji, że otrzymasz określoną liczbę biletów."
+=======
+"musisz wpisać się na listę rezerwową więcej razy, podając różne "
+"adresy e-mail. Nie ma gwarancji, że otrzymasz określoną "
+"liczbę biletów."
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 
 #: pretix/presale/templates/pretixpresale/event/waitinglist.html:39
 msgid "Add me to the list"
@@ -31581,8 +31635,12 @@ msgstr "Twoje nowe hasło zostało ustawione! Możesz go teraz użyć do logowan
 msgid ""
 "We've sent you an email with further instructions on resetting your password."
 msgstr ""
+<<<<<<< HEAD
 "Wysłaliśmy Ci wiadomość e-mail z dalszymi instrukcjami na temat resetowania "
 "hasła."
+=======
+"Wysłaliśmy Ci wiadomość e-mail z dalszymi instrukcjami na temat resetowania hasła."
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 
 #: pretix/presale/views/customer.py:524
 msgid ""
@@ -31590,9 +31648,15 @@ msgid ""
 "your email address. The email address of your account will be changed as "
 "soon as you click that link."
 msgstr ""
+<<<<<<< HEAD
 "Twoje zmiany zostały zapisane. Wysłaliśmy Ci e-mail z linkiem do "
 "aktualizacji twojego adresu e-mail. Adres e-mail Twojego konta zostanie "
 "zmieniony po kliknięciu tego linku."
+=======
+"Twoje zmiany zostały zapisane. Wysłaliśmy Ci e-mail z linkiem do aktualizacji "
+"twojego adresu e-mail. Adres e-mail Twojego konta zostanie zmieniony "
+"po kliknięciu tego linku."
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 
 #: pretix/presale/views/customer.py:573
 msgid ""
@@ -31747,11 +31811,18 @@ msgid ""
 "{number} hours. If the email did not arrive, please check your spam folder "
 "and also double check that you used the correct email address."
 msgstr ""
+<<<<<<< HEAD
 "Jeśli wprowadzony przez Ciebie adres e-mail jest poprawny i powiązany z "
 "biletem, to już wcześniej wysłaliśmy Ci e-mail z odnośnikiem do Twojego "
 "biletu w ciągu ostatnich {number} godzin. Jeżeli e-mail nie dotarł, proszę "
 "sprawdzić folder ze spamem oraz upewnić się, że wprowadziłeś poprawny adres "
 "e-mail."
+=======
+"Jeśli wprowadzony przez Ciebie adres e-mail jest poprawny i powiązany z biletem, "
+"to już wcześniej wysłaliśmy Ci e-mail z odnośnikiem do Twojego biletu w ciągu ostatnich "
+"{number} godzin. Jeżeli e-mail nie dotarł, proszę sprawdzić folder ze spamem "
+"oraz upewnić się, że wprowadziłeś poprawny adres e-mail."
+>>>>>>> 4c5ee3de7 (Fix some Polish translations)
 
 #: pretix/presale/views/user.py:91
 msgid "We have trouble sending emails right now, please check back later."
