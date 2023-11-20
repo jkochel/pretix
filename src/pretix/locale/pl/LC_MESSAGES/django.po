@@ -4320,7 +4320,7 @@ msgstr ""
 
 #: pretix/base/models/items.py:508
 msgid "Only show after sellout of"
-msgstr ""
+msgstr "Pokaż tylko po wyprzedaniu"
 
 #: pretix/base/models/items.py:509
 msgid ""
