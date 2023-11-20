@@ -1,0 +1,101 @@
+PayPal
+Venmo
+Apple Pay
+Itaú
+PayPal Credit
+Credit Card
+PayPal Pay Later
+iDEAL
+SEPA Direct Debit
+Bancontact
+giropay
+SOFORT
+MyBank
+Przelewy24
+Verkkopankki
+PayU
+BLIK
+Trustly
+Zimpler
+Maxima
+OXXO
+Boleto
+WeChat Pay
+Mercado Pago
+Payment method unavailable
+Select a check-in list
+No active check-in lists found.
+Switch check-in list
+Search results
+Result
+This ticket requires special attention
+Switch direction
+Entry
+Exit
+Scan a ticket or search and press return…
+Load more
+Valid
+Unpaid
+Canceled
+Cancel
+Ticket not paid
+This ticket is not yet paid. Do you want to continue anyways?
+Additional information required
+Valid ticket
+Exit recorded
+Ticket already used
+Information required
+Ticket type not allowed here
+Entry not allowed
+Ticket code revoked/changed
+Ticket blocked
+Ticket not valid at this time
+Order canceled
+Ticket code is ambiguous on list
+Valid Tickets
+Currently inside
+is one of
+is before
+is after
+Product
+Gate
+Current date and time
+Current day of the week (1 = Monday, 7 = Sunday)
+Number of previous entries
+Number of previous entries since midnight
+Number of previous entries since
+Number of previous entries before
+Number of days with a previous entry
+Minutes since last entry (-1 on first entry)
+Minutes since first entry (-1 on first entry)
+All of the conditions below (AND)
+At least one of the conditions below (OR)
+custom date and time
+custom time
+Tolerance (minutes)
+Add condition
+Duplicate
+Search query
+Selected only
+Enter page number between 1 and %(max)s.
+Invalid page number.
+You have unsaved changes!
+Please enter the amount the organizer can keep.
+Time zone:
+Your local time:
+Google Pay
+Quantity
+Decrease quantity
+Increase quantity
+Price
+Select
+Select %s
+There are currently a lot of users in this ticket shop. Please open the shop 
+in a new tab to continue.
+We could not create your cart, since there are currently too many users in 
+this ticket shop. Please click \"Continue\" to retry in a new tab.
+Next week
+Some or all ticket categories are currently sold out. If you want, you can 
+add yourself to the waiting list. We will then notify if seats are available 
+again.
+Load more
