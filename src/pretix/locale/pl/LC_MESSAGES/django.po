@@ -8995,7 +8995,7 @@ msgstr ""
 
 #: pretix/base/settings.py:1082
 msgid "Albert Einstein Road 52"
-msgstr ""
+msgstr "Albert Einstein Road 52"
 
 #: pretix/base/settings.py:1134
 msgid "Domestic tax ID"
@@ -13406,7 +13406,7 @@ msgstr "Wybierz automatycznie w zależności od ustawień zdarzeń"
 
 #: pretix/control/forms/item.py:527
 msgid "Yes, if ticket generation is enabled in general"
-msgstr ""
+msgstr "Tak, jeśli generowanie biletów jest ogólnie włączone"
 
 #: pretix/control/forms/item.py:538
 msgid ""
@@ -30915,11 +30915,11 @@ msgstr ""
 
 #: pretix/presale/templates/pretixpresale/event/order_cancel.html:218
 msgid "Yes, request cancellation"
-msgstr ""
+msgstr "Tak, poproś o anulowanie"
 
 #: pretix/presale/templates/pretixpresale/event/order_change_confirm.html:19
 msgid "Please confirm the following changes to your order."
-msgstr ""
+msgstr "Potwierdź następujące zmiany w zamówieniu."
 
 #: pretix/presale/templates/pretixpresale/event/order_giftcard.html:10
 #: pretix/presale/templates/pretixpresale/event/position_giftcard.html:10
@@ -30930,54 +30930,58 @@ msgstr "Karta prezentowa"
 
 #: pretix/presale/templates/pretixpresale/event/order_modify.html:5
 msgid "Modify order"
-msgstr ""
+msgstr "Zmień zamówienie"
 
 #: pretix/presale/templates/pretixpresale/event/order_modify.html:8
 #, python-format
 msgid "Modify order: %(code)s"
-msgstr ""
+msgstr "Zmień zamówienie: %(code)s"
 
 #: pretix/presale/templates/pretixpresale/event/order_modify.html:18
 msgid ""
 "Modifying your invoice address will not automatically generate a new "
 "invoice. Please contact us if you need a new invoice."
 msgstr ""
+"Modyfikacja adresu faktury nie wygeneruje automatycznie nowej "
+"faktura. Skontaktuj się z nami, jeśli potrzebujesz nowej faktury."
 
 #: pretix/presale/templates/pretixpresale/event/order_modify.html:85
 msgid "Save changes"
-msgstr ""
+msgstr "Zapisz zmiany"
 
 #: pretix/presale/templates/pretixpresale/event/order_pay_change.html:5
 msgid "Change payment method"
-msgstr ""
+msgstr "Zmiana metody płatności"
 
 #: pretix/presale/templates/pretixpresale/event/order_pay_change.html:12
 #, python-format
 msgid "Choose payment method: %(code)s"
-msgstr ""
+msgstr "Wybierz metodę płatności: %(code)s"
 
 #: pretix/presale/templates/pretixpresale/event/order_pay_change.html:18
 msgid ""
 "Please note: If you change your payment method, your order total will change "
 "by the amount displayed to the right of each method."
 msgstr ""
+"Uwaga: jeśli zmienisz metodę płatności, całkowita wartość zamówienia zmieni się "
+"o kwotę wyświetloną po prawej stronie każdej metody."
 
 #: pretix/presale/templates/pretixpresale/event/order_pay_change.html:53
 msgid "There are no alternative payment providers available for this order."
-msgstr ""
+msgstr "Na to zamówienie nie ma alternatywnych metod płatności."
 
 #: pretix/presale/templates/pretixpresale/event/order_pay_confirm.html:16
 msgid "Please confirm the following payment details."
-msgstr ""
+msgstr "Potwierdź następujące szczegóły płatności."
 
 #: pretix/presale/templates/pretixpresale/event/order_pay_confirm.html:22
 #, python-format
 msgid "Total: %(total)s"
-msgstr ""
+msgstr "Razem: %(total)s"
 
 #: pretix/presale/templates/pretixpresale/event/position.html:7
 msgid "Registration details"
-msgstr ""
+msgstr "Szczegóły rejestracji"
 
 #: pretix/presale/templates/pretixpresale/event/position.html:10
 msgid "Your registration"
@@ -31103,7 +31107,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/voucher.html:113
 #, python-format
 msgid "from %(minprice)s"
-msgstr ""
+msgstr "od %(minprice)s"
 
 #: pretix/presale/templates/pretixpresale/event/voucher.html:422
 #, fuzzy, python-format
@@ -31220,7 +31224,7 @@ msgstr "Cena oryginalna"
 #: pretix/presale/templates/pretixpresale/fragment_day_calendar.html:78
 msgctxt "timerange"
 msgid "to"
-msgstr ""
+msgstr "do"
 
 #: pretix/presale/templates/pretixpresale/fragment_day_calendar.html:119
 #, python-format
@@ -31278,6 +31282,8 @@ msgid ""
 "Functional cookies (e.g. shopping cart, login, payment, language preference) "
 "and technical cookies (e.g. security purposes)"
 msgstr ""
+"Funkcjonalne pliki cookie (np. koszyk zakupów, login, płatność, preferencje językowe) "
+"i techniczne pliki cookie (np. w celach bezpieczeństwa)"
 
 #: pretix/presale/templates/pretixpresale/fragment_modals.html:89
 msgctxt "cookie_usage"
@@ -31315,7 +31321,7 @@ msgstr ""
 
 #: pretix/presale/templates/pretixpresale/index.html:7
 msgid "Hello!"
-msgstr ""
+msgstr "Cześć!"
 
 #: pretix/presale/templates/pretixpresale/index.html:9
 #, python-format
@@ -31338,6 +31344,8 @@ msgid ""
 "If you're looking to configure this installation, please <a %(a_attr)s>head "
 "over here</a>."
 msgstr ""
+"Jeśli chcesz skonfigurować tę instalację, proszę <a %(a_attr)s> przejdź "
+"tutaj </a>."
 
 #: pretix/presale/templates/pretixpresale/index.html:24
 msgid "Enjoy!"
@@ -31347,7 +31355,7 @@ msgstr "Życzymy dobrej zabawy!"
 #: pretix/presale/templates/pretixpresale/organizers/calendar_day.html:6
 #: pretix/presale/templates/pretixpresale/organizers/calendar_week.html:6
 msgid "Event overview"
-msgstr ""
+msgstr "Podsumowanie wydarzenia"
 
 #: pretix/presale/templates/pretixpresale/organizers/calendar.html:61
 #: pretix/presale/templates/pretixpresale/organizers/calendar_day.html:70
@@ -31392,7 +31400,7 @@ msgstr "Data stworzenia"
 #: pretix/presale/templates/pretixpresale/organizers/customer_membership.html:7
 #: pretix/presale/templates/pretixpresale/organizers/customer_membership.html:10
 msgid "Your membership"
-msgstr ""
+msgstr "Twoje członkostwo"
 
 #: pretix/presale/templates/pretixpresale/organizers/customer_password.html:6
 #: pretix/presale/templates/pretixpresale/organizers/customer_resetpw.html:6
@@ -31539,7 +31547,7 @@ msgstr "Pokaż minione wydarzenia"
 #: pretix/presale/templates/pretixpresale/pagination.html:14
 #, python-format
 msgid "Page %(page)s of %(of)s"
-msgstr ""
+msgstr "Strona %(page)s z %(of)s"
 
 #: pretix/presale/templates/pretixpresale/postmessage.html:21
 #: pretix/presale/templates/pretixpresale/waiting.html:22
