@@ -10546,7 +10546,7 @@ msgid "Confirm email address for your account at {organizer}"
 msgstr "Potwierdź adres e-mail swojego konta w {organizer}"
 
 #: pretix/base/settings.py:2604
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "Hello {name},\n"
 "\n"
