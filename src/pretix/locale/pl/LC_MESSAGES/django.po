@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 14:27+0000\n"
-"PO-Revision-Date: 2023-11-12 13:26+0000\n"
-"Last-Translator: Fast128 <fast128@post.pl>\n"
+"PO-Revision-Date: 2023-11-20 12:15+0000\n"
+"Last-Translator: c0de-bender <code-bender@mailbox.org>\n"
 "Language-Team: Polish <https://translate.pretix.eu/projects/pretix/pretix/pl/"
 ">\n"
 "Language: pl\n"
@@ -2913,8 +2913,8 @@ msgid ""
 "Optional, but it might be required for you to claim tax benefits on your "
 "invoice depending on your and the seller’s country of residence."
 msgstr ""
-"Opcjonalne, ale może być wymagane na fakturze do ubiegania się o ulgi podatkowe "
-"w zależności od kraju zamieszkania i sprzedawcy."
+"Opcjonalne, ale może być wymagane na fakturze do ubiegania się o ulgi "
+"podatkowe w zależności od kraju zamieszkania i sprzedawcy."
 
 #: pretix/base/forms/questions.py:1125
 msgid "You need to provide a company name."
@@ -3744,8 +3744,7 @@ msgid ""
 "You need to either set a minimum number of matching products or a minimum "
 "value."
 msgstr ""
-"Musisz ustawić minimalną liczbę pasujących produktów lub minimalną "
-"wartość."
+"Musisz ustawić minimalną liczbę pasujących produktów lub minimalną wartość."
 
 #: pretix/base/models/discount.py:205
 msgid ""
@@ -3841,7 +3840,8 @@ msgstr "Ogranicz do określonych kanałów sprzedaży"
 
 #: pretix/base/models/event.py:620
 msgid "Only sell tickets for this event on the following sales channels."
-msgstr "Sprzedaj bilety tylko na to wydarzenie na następujących kanałach sprzedaży."
+msgstr ""
+"Sprzedaj bilety tylko na to wydarzenie na następujących kanałach sprzedaży."
 
 #: pretix/base/models/event.py:628 pretix/control/navigation.py:342
 #: pretix/control/navigation.py:463
@@ -4076,7 +4076,9 @@ msgstr "Czas rozpoczęcia wydarzenia"
 
 #: pretix/base/models/exports.py:86
 msgid "The actual start time might be delayed depending on system load."
-msgstr "Rzeczywisty czas rozpoczęcia może być opóźniony w zależności od obciążenia systemowego."
+msgstr ""
+"Rzeczywisty czas rozpoczęcia może być opóźniony w zależności od obciążenia "
+"systemowego."
 
 #: pretix/base/models/fields.py:33
 msgid "No value can contain the delimiter character."
@@ -4195,7 +4197,8 @@ msgstr "Karta prezentowa"
 
 #: pretix/base/models/items.py:379 pretix/base/models/items.py:678
 msgid "Don't use re-usable media, use regular one-off tickets"
-msgstr "Nie używaj mediów ponownego użycia, używaj zwykłych biletów jednorazowych"
+msgstr ""
+"Nie używaj mediów ponownego użycia, używaj zwykłych biletów jednorazowych"
 
 #: pretix/base/models/items.py:380
 msgid "Require an existing medium to be re-used"
@@ -4513,7 +4516,9 @@ msgstr "Klienci mogą wybrać datę rozpoczęcia ważności"
 
 #: pretix/base/models/items.py:655
 msgid "If not selected, the validity always starts at the time of purchase."
-msgstr "Jeśli opcja nie zostanie wybrana, ważność zawsze zaczyna się w momencie zakupu."
+msgstr ""
+"Jeśli opcja nie zostanie wybrana, ważność zawsze zaczyna się w momencie "
+"zakupu."
 
 #: pretix/base/models/items.py:660
 #, fuzzy
@@ -6107,8 +6112,8 @@ msgid ""
 "You are already on this waiting list! We will notify you as soon as we have "
 "a ticket available for you."
 msgstr ""
-"Jesteś już na tej liście rezerwowej! Powiadomimy cię, jak tylko będzie "
-"dla Ciebie dostępny bilet."
+"Jesteś już na tej liście rezerwowej! Powiadomimy cię, jak tylko będzie dla "
+"Ciebie dostępny bilet."
 
 #: pretix/base/notifications.py:192 pretix/control/navigation.py:137
 #: pretix/control/templates/pretixcontrol/subevents/bulk.html:20
@@ -6547,8 +6552,8 @@ msgid ""
 "No payment is required as this order only includes products which are free "
 "of charge."
 msgstr ""
-"Żadna płatność nie jest wymagana, ponieważ to zamówienie obejmuje tylko darmowe "
-"produkty."
+"Żadna płatność nie jest wymagana, ponieważ to zamówienie obejmuje tylko "
+"darmowe produkty."
 
 #: pretix/base/payment.py:1075
 msgid "Free of charge"
@@ -6642,7 +6647,8 @@ msgstr ""
 #: pretix/base/payment.py:1429 pretix/base/payment.py:1480
 #: pretix/base/payment.py:1523
 msgid "You cannot pay with gift cards when buying a gift card."
-msgstr "Przy zakupie karty podarunkowej nie możesz płacić kartami podarunkowymi."
+msgstr ""
+"Przy zakupie karty podarunkowej nie możesz płacić kartami podarunkowymi."
 
 #: pretix/base/payment.py:1438 pretix/base/payment.py:1488
 #: pretix/base/payment.py:1533 pretix/base/payment.py:1535
@@ -6697,8 +6703,8 @@ msgid ""
 "This gift card can not be redeemed since its code is not unique. Please "
 "contact the organizer of this event."
 msgstr ""
-"Tej karty podarunkowej nie można wymienić, ponieważ jej kod nie jest unikalny. Prosimy o "
-"kontakt z organizatorem tego wydarzenia."
+"Tej karty podarunkowej nie można wymienić, ponieważ jej kod nie jest "
+"unikalny. Prosimy o kontakt z organizatorem tego wydarzenia."
 
 #: pretix/base/payment.py:1537
 #, fuzzy
@@ -7235,8 +7241,8 @@ msgid ""
 "We were not able to process your request completely as the server was too "
 "busy. Please try again."
 msgstr ""
-"Nie byliśmy w stanie przetworzyć Twojego żądania do końca, ponieważ serwer był zbyt "
-"zajęty. Proszę spróbować ponownie."
+"Nie byliśmy w stanie przetworzyć Twojego żądania do końca, ponieważ serwer "
+"był zbyt zajęty. Proszę spróbować ponownie."
 
 #: pretix/base/services/cart.py:103 pretix/presale/views/cart.py:242
 msgid "You did not select any products."
@@ -7260,16 +7266,15 @@ msgid ""
 "Some of the products you selected are no longer available. Please see below "
 "for details."
 msgstr ""
-"Niektóre wybrane produkty nie są już dostępne. Szczegóły "
-"Szczegóły poniżej."
+"Niektóre wybrane produkty nie są już dostępne. Szczegóły Szczegóły poniżej."
 
 #: pretix/base/services/cart.py:112
 msgid ""
 "Some of the products you selected are no longer available in the quantity "
 "you selected. Please see below for details."
 msgstr ""
-"Niektóre wybrane produkty nie są już dostępne w wybranej ilości. "
-"Szczegóły poniżej."
+"Niektóre wybrane produkty nie są już dostępne w wybranej ilości. Szczegóły "
+"poniżej."
 
 #: pretix/base/services/cart.py:116
 #, fuzzy, python-format
@@ -7394,8 +7399,7 @@ msgstr[2] ""
 #: pretix/base/services/cart.py:158
 msgid ""
 "This voucher code has already been used the maximum number of times allowed."
-msgstr ""
-"Ten kod kuponów był już użyty maksymalną liczbę razy."
+msgstr "Ten kod kuponów był już użyty maksymalną liczbę razy."
 
 #: pretix/base/services/cart.py:160
 #, python-format
@@ -7405,10 +7409,10 @@ msgid ""
 "or that you tried to redeem it before but did not complete the checkout "
 "process. You can try to use it again in %d minutes."
 msgstr ""
-"Ten kod kuponów jest obecnie zablokowany, ponieważ jest już zawarty w "
-"czyimś koszyku. Może to oznaczać, że ktoś inny używa teraz tego kuponu, "
-"lub że próbowałeś go wcześniej wymienić, ale nie ukończyłeś zamówienia "
-"Możesz spróbować użyć go ponownie w %d minuty."
+"Ten kod kuponów jest obecnie zablokowany, ponieważ jest już zawarty w czyimś "
+"koszyku. Może to oznaczać, że ktoś inny używa teraz tego kuponu, lub że "
+"próbowałeś go wcześniej wymienić, ale nie ukończyłeś zamówienia Możesz "
+"spróbować użyć go ponownie w %d minuty."
 
 #: pretix/base/services/cart.py:165
 #, python-format
@@ -7420,16 +7424,16 @@ msgid ""
 "Applying a voucher to the whole cart should not be combined with other "
 "operations."
 msgstr ""
-"Kuponu do całego wózka nie powinnien być łączony z innymi operacjami "
-"być łączony z innymi operacjami."
+"Kuponu do całego wózka nie powinnien być łączony z innymi operacjami być "
+"łączony z innymi operacjami."
 
 #: pretix/base/services/cart.py:168
 msgid ""
 "You already used this voucher code. Remove the associated line from your "
 "cart if you want to use it for a different product."
 msgstr ""
-"Ten kod kuponu został już użyty. "
-"Aby go użyć dla innego produktu, usuń powiązaną pozycję z koszyka."
+"Ten kod kuponu został już użyty. Aby go użyć dla innego produktu, usuń "
+"powiązaną pozycję z koszyka."
 
 #: pretix/base/services/cart.py:171
 msgid "This voucher is expired."
@@ -7451,9 +7455,10 @@ msgid ""
 "for. If you want to add something new to your cart using that voucher, you "
 "can do so with the voucher redemption option on the bottom of the page."
 msgstr ""
-"Nie znaleźliśmy w Twoim koszyku żadnej pozycji, na którą moglibyśmy wykorzystać ten kupon. "
-"Jeśli chcesz dodać coś nowego do koszyka za pomocą tego kuponu, możesz to zrobić za pomocą "
-"opcji realizacji kuponu na dole strony."
+"Nie znaleźliśmy w Twoim koszyku żadnej pozycji, na którą moglibyśmy "
+"wykorzystać ten kupon. Jeśli chcesz dodać coś nowego do koszyka za pomocą "
+"tego kuponu, możesz to zrobić za pomocą opcji realizacji kuponu na dole "
+"strony."
 
 #: pretix/base/services/cart.py:180
 msgid "Your voucher is valid for a product that is currently not for sale."
@@ -7512,8 +7517,8 @@ msgid ""
 "You can select every add-ons from the category %(cat)s for the product "
 "%(base)s at most once."
 msgstr ""
-"Możesz wybrać wszystkie dodatki z kategorii %(cat)s dla produktu "
-"%(base)s najwyżej raz."
+"Możesz wybrać wszystkie dodatki z kategorii %(cat)s dla produktu %(base)s "
+"najwyżej raz."
 
 #: pretix/base/services/cart.py:197
 msgid ""
@@ -7548,16 +7553,16 @@ msgid ""
 "You entered a gift card instead of a voucher. Gift cards can be entered "
 "later on when you're asked for your payment details."
 msgstr ""
-"Wpisałeś kartę podarunkową zamiast kuponu. Karty podarunkowe można wprowadzić "
-"później, podczas wyboru metody płatności."
+"Wpisałeś kartę podarunkową zamiast kuponu. Karty podarunkowe można "
+"wprowadzić później, podczas wyboru metody płatności."
 
 #: pretix/base/services/cart.py:206
 msgid ""
 "The configuration of this product requires mapping to a physical medium, "
 "which is currently not available online."
 msgstr ""
-"Konfiguracja tego produktu wymaga mapowania na fizyczne medium, "
-"który obecnie nie jest dostępny online."
+"Konfiguracja tego produktu wymaga mapowania na fizyczne medium, który "
+"obecnie nie jest dostępny online."
 
 #: pretix/base/services/checkin.py:214
 #: pretix/plugins/stripe/templates/pretixplugins/stripe/pending.html:36
@@ -7756,7 +7761,9 @@ msgstr "Czas wstępu"
 
 #: pretix/base/services/export.py:221
 msgid "Your exported data exceeded the size limit for scheduled exports."
-msgstr "Twoje wyeksportowane dane przekroczyły limit wielkości dla zaplanowanego eksportu."
+msgstr ""
+"Twoje wyeksportowane dane przekroczyły limit wielkości dla zaplanowanego "
+"eksportu."
 
 #: pretix/base/services/invoices.py:103
 #, python-brace-format
@@ -7941,8 +7948,8 @@ msgid ""
 "Error while importing value \"{value}\" for column \"{column}\" in line "
 "\"{line}\": {message}"
 msgstr ""
-"Błąd podczas importowania wartości \"{value}\" dla kolumny \"{column}\" w linii "
-"\"{line}\": {message}"
+"Błąd podczas importowania wartości \"{value}\" dla kolumny \"{column}\" w "
+"linii \"{line}\": {message}"
 
 #: pretix/base/services/orderimport.py:148
 #, fuzzy, python-brace-format
@@ -7954,17 +7961,15 @@ msgstr "Wprowadzono nieprawidłową datę."
 msgid ""
 "Some of the products you selected were no longer available. Please see below "
 "for details."
-msgstr ""
-"Niektóre wybrane produkty nie były już dostępne. "
-"Szczegóły poniżej."
+msgstr "Niektóre wybrane produkty nie były już dostępne. Szczegóły poniżej."
 
 #: pretix/base/services/orders.py:134
 msgid ""
 "Some of the products you selected were no longer available in the quantity "
 "you selected. Please see below for details."
 msgstr ""
-"Niektóre wybrane produkty nie były już dostępne w wybranej ilości. "
-"Szczegóły poniżej."
+"Niektóre wybrane produkty nie były już dostępne w wybranej ilości. Szczegóły "
+"poniżej."
 
 #: pretix/base/services/orders.py:138
 msgid ""
@@ -7983,8 +7988,8 @@ msgid ""
 "This order was changed by someone else simultaneously. Please check if your "
 "changes are still accurate and try again."
 msgstr ""
-"Zamówienie zostało w tym samym czasie zmienione przez kogoś innego. Sprawdź, czy "
-"zmiany są nadal odpowiednie i spróbuj ponownie."
+"Zamówienie zostało w tym samym czasie zmienione przez kogoś innego. Sprawdź, "
+"czy zmiany są nadal odpowiednie i spróbuj ponownie."
 
 #: pretix/base/services/orders.py:144
 msgid "Your cart is empty."
@@ -8113,8 +8118,8 @@ msgid ""
 "This order can not be canceled since the gift card {card} purchased in this "
 "order has already been redeemed."
 msgstr ""
-"Tego zamówienia nie można anulować, ponieważ karta podarunkowa {card} zakupiona w tym "
-"zamówieniu została już wykorzystana."
+"Tego zamówienia nie można anulować, ponieważ karta podarunkowa {card} "
+"zakupiona w tym zamówieniu została już wykorzystana."
 
 #: pretix/base/services/orders.py:555 pretix/control/forms/orders.py:205
 msgid ""
@@ -8131,9 +8136,10 @@ msgid ""
 "changed. Either one of the prices changed just now, or a gift card you used "
 "has been used in the meantime. Please check the prices below and try again."
 msgstr ""
-"Przy próbie złożenia zamówieni, zauważyliśmy, że suma zamówienia "
-"się zmieniła. Albo jedna z cen się właśnie zmieniła, albo jedna z zastosowanych kart podarunkowych "
-"została wykorzystana w międzyczasie. Sprawdź poniższe ceny i spróbuj ponownie."
+"Przy próbie złożenia zamówieni, zauważyliśmy, że suma zamówienia się "
+"zmieniła. Albo jedna z cen się właśnie zmieniła, albo jedna z zastosowanych "
+"kart podarunkowych została wykorzystana w międzyczasie. Sprawdź poniższe "
+"ceny i spróbuj ponownie."
 
 #: pretix/base/services/orders.py:1485
 msgid "You need to select a variation of the product."
@@ -8158,8 +8164,8 @@ msgid ""
 "This operation would leave the order empty. Please cancel the order itself "
 "instead."
 msgstr ""
-"Ta operacja spowodowałaby puste zamówienie. Zamiast tego, anuluj "
-"całe zamówienie."
+"Ta operacja spowodowałaby puste zamówienie. Zamiast tego, anuluj całe "
+"zamówienie."
 
 #: pretix/base/services/orders.py:1491
 msgid ""
@@ -8193,8 +8199,8 @@ msgid ""
 "You selected seat \"{seat}\" for a date that does not match the selected "
 "ticket date. Please choose a seat again."
 msgstr ""
-"Wybrałeś miejsce \"{seat}\" dla daty, która nie pasuje do wybranej "
-"daty biletu. Wybierz miejsce ponownie."
+"Wybrałeś miejsce \"{seat}\" dla daty, która nie pasuje do wybranej daty "
+"biletu. Wybierz miejsce ponownie."
 
 #: pretix/base/services/orders.py:1501
 msgid "The selected product requires you to select a seat."
@@ -8215,8 +8221,8 @@ msgid ""
 "You cannot change the price of a position that has been used to issue a gift "
 "card."
 msgstr ""
-"Nie możesz zmienić ceny pozycji, która została wykorzystana do wystawienia karty "
-"podarunkowej."
+"Nie możesz zmienić ceny pozycji, która została wykorzystana do wystawienia "
+"karty podarunkowej."
 
 #: pretix/base/services/orders.py:2281 pretix/base/services/orders.py:2297
 #, python-brace-format
@@ -8232,8 +8238,8 @@ msgid ""
 "There was an error while trying to send the money back to you. Please "
 "contact the event organizer for further information."
 msgstr ""
-"Wystąpił błąd podczas próby odesłania pieniędzy. "
-"Skontaktuj się z organizatorem wydarzenia w celu uzyskania dalszych informacji."
+"Wystąpił błąd podczas próby odesłania pieniędzy. Skontaktuj się z "
+"organizatorem wydarzenia w celu uzyskania dalszych informacji."
 
 #: pretix/base/services/seating.py:61 pretix/base/services/seating.py:128
 #, python-format
@@ -8438,9 +8444,7 @@ msgstr "Produkty dodatkowe nie będą wliczane."
 msgid ""
 "Show net prices instead of gross prices in the product list (not "
 "recommended!)"
-msgstr ""
-"Pokaż ceny netto zamiast cen brutto na liście produktów (nie "
-"zalecane!)"
+msgstr "Pokaż ceny netto zamiast cen brutto na liście produktów (nie zalecane!)"
 
 #: pretix/base/settings.py:324
 msgid ""
@@ -8652,8 +8656,8 @@ msgid ""
 "If an invoice has already been paid partially, this option will add the paid "
 "and pending amount to the invoice."
 msgstr ""
-"Jeśli faktura została już częściowo zapłacona, ta opcja doda sumę "
-"opłaconą i nieopłaconą na fakturze."
+"Jeśli faktura została już częściowo zapłacona, ta opcja doda sumę opłaconą i "
+"nieopłaconą na fakturze."
 
 #: pretix/base/settings.py:625
 msgid "Show free products on invoices"
@@ -8664,8 +8668,8 @@ msgid ""
 "Note that invoices will never be generated for orders that contain only free "
 "products."
 msgstr ""
-"Uwaga, faktury nigdy nie będą generowane dla zamówień zawierających tylko bezpłatne "
-"produkty."
+"Uwaga, faktury nigdy nie będą generowane dla zamówień zawierających tylko "
+"bezpłatne produkty."
 
 #: pretix/base/settings.py:636
 #, fuzzy
@@ -8678,8 +8682,8 @@ msgid ""
 "The expiration date will not be shown if the invoice is generated after the "
 "order is paid."
 msgstr ""
-"Data ważności nie zostanie wyświetlona, jeśli faktura zostanie wygenerowana po "
-"opłaceniu zamówienia."
+"Data ważności nie zostanie wyświetlona, jeśli faktura zostanie wygenerowana "
+"po opłaceniu zamówienia."
 
 #: pretix/base/settings.py:647
 msgid "Minimum length of invoice number after prefix"
@@ -8901,10 +8905,10 @@ msgid ""
 "shown this page again and you can either redeem another gift card or select "
 "a different payment method for the difference."
 msgstr ""
-"Jeśli masz kartę podarunkową, wprowadź tutaj kod karty podarunkowej. Jeśli karta "
-"podarunowa nie zawiera wystarczających środkówu, aby w pełni opłacić zamówienie, będziesz "
-"ponownie wyświetli się ta strona i będzie możliwość wybania innej karty podarunkowej lub "
-"innej metody płatności dla różnicy."
+"Jeśli masz kartę podarunkową, wprowadź tutaj kod karty podarunkowej. Jeśli "
+"karta podarunowa nie zawiera wystarczających środkówu, aby w pełni opłacić "
+"zamówienie, będziesz ponownie wyświetli się ta strona i będzie możliwość "
+"wybania innej karty podarunkowej lub innej metody płatności dla różnicy."
 
 #: pretix/base/settings.py:996
 msgid "Accept late payments"
@@ -8923,7 +8927,8 @@ msgstr "Pokaż datę rozpoczęcia"
 
 #: pretix/base/settings.py:1009
 msgid "Show the presale start date before presale has started."
-msgstr "Pokaż datę rozpoczęcia przedsprzedaży przed rozpoczęciem przedsprzedaży."
+msgstr ""
+"Pokaż datę rozpoczęcia przedsprzedaży przed rozpoczęciem przedsprzedaży."
 
 #: pretix/base/settings.py:1024 pretix/base/settings.py:1035
 msgid "Do not generate invoices"
@@ -8959,7 +8964,8 @@ msgstr "Automatycznie przed płatnością za wszystkie utworzone zamówienia"
 
 #: pretix/base/settings.py:1041
 msgid "Invoices will never be automatically generated for free orders."
-msgstr "Faktury nigdy nie zostaną automatycznie generowane dla bezpłatnych zamówień."
+msgstr ""
+"Faktury nigdy nie zostaną automatycznie generowane dla bezpłatnych zamówień."
 
 #: pretix/base/settings.py:1050
 msgid "Automatically cancel and reissue invoice on address changes"
@@ -9076,7 +9082,8 @@ msgstr "Pokaż przedmioty poza okresem przedsprzedażowym"
 msgid ""
 "Show item details before presale has started and after presale has ended"
 msgstr ""
-"Pokaż szczegóły przedmiotu przed rozpoczęciem przedsprzedaży i po zakończeniu przedsprzedaży"
+"Pokaż szczegóły przedmiotu przed rozpoczęciem przedsprzedaży i po "
+"zakończeniu przedsprzedaży"
 
 #: pretix/base/settings.py:1254
 msgid "Available languages"
@@ -9227,8 +9234,8 @@ msgid ""
 "If you ask for a phone number, explain why you do so and what you will use "
 "the phone number for."
 msgstr ""
-"Jeśli poprosisz o numer telefonu, wyjaśnij, dlaczego to robisz i czego użyjesz "
-"numer telefonu."
+"Jeśli poprosisz o numer telefonu, wyjaśnij, dlaczego to robisz i czego "
+"użyjesz numer telefonu."
 
 #: pretix/base/settings.py:1461
 msgid "Maximum number of entries per email address for the same product"
@@ -9430,13 +9437,15 @@ msgstr ""
 msgid ""
 "Only allow changes if the resulting price is higher than the previous price."
 msgstr ""
-"Zezwalaj na zmiany tylko wtedy, gdy zmieniona cena jest wyższa niż poprzednia cena."
+"Zezwalaj na zmiany tylko wtedy, gdy zmieniona cena jest wyższa niż "
+"poprzednia cena."
 
 #: pretix/base/settings.py:1689 pretix/base/settings.py:1700
 msgid ""
 "Only allow changes if the resulting price is equal to the previous price."
 msgstr ""
-"Zezwalaj na zmiany tylko wtedy, gdy zmieniona cena jest równa poprzedniej cenie."
+"Zezwalaj na zmiany tylko wtedy, gdy zmieniona cena jest równa poprzedniej "
+"cenie."
 
 #: pretix/base/settings.py:1690 pretix/base/settings.py:1701
 msgid ""
@@ -9446,7 +9455,9 @@ msgstr ""
 
 #: pretix/base/settings.py:1692 pretix/base/settings.py:1703
 msgid "Allow changes regardless of price, even if this results in a refund."
-msgstr "Zezwalaj na zmiany niezależnie od ceny, nawet jeśli powoduje to zwrot pieniędzy."
+msgstr ""
+"Zezwalaj na zmiany niezależnie od ceny, nawet jeśli powoduje to zwrot "
+"pieniędzy."
 
 #: pretix/base/settings.py:1696
 msgid "Requirement for changed prices"
@@ -9594,7 +9605,8 @@ msgstr "Wszystkie zwroty są dokonywane pierwotną metodą płatności"
 msgid ""
 "Customers can choose between a gift card and a refund to their payment method"
 msgstr ""
-"Klienci mogą wybierać między kartą podarunkową a zwrotem za pomocą pierwotnej metody płatności"
+"Klienci mogą wybierać między kartą podarunkową a zwrotem za pomocą "
+"pierwotnej metody płatności"
 
 #: pretix/base/settings.py:1913 pretix/base/settings.py:1923
 #, fuzzy
@@ -9762,7 +9774,8 @@ msgstr ""
 "Otrzymujesz tę wiadomość, ponieważ poprosiłeś nas o przesłanie linku\n"
 "do Twojego zamówienia {event}.\n"
 "\n"
-"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
+"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod "
+"adresem\n"
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -9835,10 +9848,12 @@ msgid ""
 msgstr ""
 "Witaj,\n"
 "\n"
-"Twoje zamówienie na {event} udało się. Jeśli zamawiałeś tylko produkty bezpłatne,\n"
+"Twoje zamówienie na {event} udało się. Jeśli zamawiałeś tylko produkty "
+"bezpłatne,\n"
 "płatność nie jest wymagana.\n"
 "\n"
-"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
+"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod "
+"adresem\n"
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -9862,10 +9877,12 @@ msgstr ""
 "Witaj,\n"
 "\n"
 "Otrzymaliśmy zamówienie na {event}. Ponieważ zamówiłeś\n"
-"produkt, który wymaga zatwierdzenia przez organizatora wydarzenia, prosimy o\n"
+"produkt, który wymaga zatwierdzenia przez organizatora wydarzenia, prosimy "
+"o\n"
 "cierpliwość i poczekanie na następny e-mail.\n"
 "\n"
-"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
+"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod "
+"adresem\n"
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -9891,12 +9908,12 @@ msgstr ""
 "Witaj,\n"
 "\n"
 "Otrzymaliśmy zamówienie na {event} o całkowitej wartości\n"
-"{total_with_currency}. Prosimy o dokończenie płatności przed "
-"{expire_date}.\n"
+"{total_with_currency}. Prosimy o dokończenie płatności przed {expire_date}.\n"
 "\n"
 "{payment_info}\n"
 "\n"
-"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
+"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod "
+"adresem\n"
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -9998,7 +10015,8 @@ msgstr ""
 "\n"
 "{payment_info}\n"
 "\n"
-"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
+"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod "
+"adresem\n"
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -10071,7 +10089,8 @@ msgstr ""
 "Pamiętaj, że Twoje zamówienie będzi pewne tylko wtedy, jeżeli otrzymamy\n"
 "Twoją płatność przed {expire_date}.\n"
 "\n"
-"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod adresem\n"
+"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod "
+"adresem\n"
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -10102,7 +10121,8 @@ msgstr ""
 "Nie otrzymaliśmy jeszcze pełnej płatności za zamówienie na {event}.\n"
 "Pamiętaj, że należy zapłacić przed {expire_date}.\n"
 "\n"
-"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod adresem\n"
+"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod "
+"adresem\n"
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -10139,7 +10159,8 @@ msgstr ""
 "Twoje zamówienie jest zatem nadal uznawane za nieppłacone, ponieważ brakuje\n"
 "jeszcze kwoty **{pending_sum}**.\n"
 "\n"
-"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod adresem\n"
+"Możesz wyświetlić informacje o płatności i status Twojego zamówienia pod "
+"adresem\n"
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -10172,11 +10193,12 @@ msgstr ""
 "\n"
 "Twoja próba opłacenia zamówienia na {event} nie powiodła się.\n"
 "\n"
-"Twoje zamówienie jest nadal ważne i możesz spróbować zapłacić ponownie za pomocą tej samej lub "
-"innej metody płatności. Prosimy o dokonanie płatności przed "
-"{expire_date}.\n"
+"Twoje zamówienie jest nadal ważne i możesz spróbować zapłacić ponownie za "
+"pomocą tej samej lub innej metody płatności. Prosimy o dokonanie płatności "
+"przed {expire_date}.\n"
 "\n"
-"Możesz spróbować zapłacić jeszcze raz i wyświetlić status Twojego zamówienia pod adresem\n"
+"Możesz spróbować zapłacić jeszcze raz i wyświetlić status Twojego zamówienia "
+"pod adresem\n"
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -10236,7 +10258,8 @@ msgstr ""
 "następnej osobie na liście\n"
 "\n"
 "Jeśli nie potrzebujesz już biletu, bardzo prosimy o kliknięcie\n"
-"następującego linku, aby nas o tym powiadomić. Będziemy wtedy mogli przekazać\n"
+"następującego linku, aby nas o tym powiadomić. Będziemy wtedy mogli "
+"przekazać\n"
 "bilet następnej osobie na liście rezerwowej:\n"
 "\n"
 "{url_remove}\n"
@@ -10301,7 +10324,8 @@ msgid ""
 msgstr ""
 "Witaj,\n"
 "\n"
-"Zatwierdziliśmy Twoje zamówienie na {event} i cieszymy się, że z nami będziesz.\n"
+"Zatwierdziliśmy Twoje zamówienie na {event} i cieszymy się, że z nami "
+"będziesz.\n"
 "na naszym wydarzeniu.\n"
 "\n"
 "Prosimy o opłacenie zamówienia przed {expire_date}.\n"
@@ -10357,10 +10381,13 @@ msgid ""
 msgstr ""
 "Witaj,\n"
 "\n"
-"Zatwierdziliśmy Twoje zamówienie na {event} i cieszymy się, że z nami będziesz.\n"
-"Ponieważ zamówiłeś tylko bezpłatne produkty, nie jest wymagana żadna płatność.\n"
+"Zatwierdziliśmy Twoje zamówienie na {event} i cieszymy się, że z nami "
+"będziesz.\n"
+"Ponieważ zamówiłeś tylko bezpłatne produkty, nie jest wymagana żadna "
+"płatność.\n"
 "\n"
-"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
+"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod "
+"adresem\n"
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -10414,7 +10441,8 @@ msgid ""
 msgstr ""
 "Witaj,\n"
 "\n"
-"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod adresem\n"
+"Możesz zmienić szczegóły zamówienia i wyświetlić status zamówienia pod "
+"adresem\n"
 "{url}\n"
 "\n"
 "Pozdrawiamy,  \n"
@@ -11274,16 +11302,16 @@ msgid ""
 "We could not verify that this request really was sent from you. For security "
 "reasons, we therefore cannot process it."
 msgstr ""
-"Nie mogliśmy sprawdzić, czy ta prośba rzeczywiście została wysłana przez Ciebie. "
-"Z powodów bezpieczeństwa nie możemy jej przetworzyć."
+"Nie mogliśmy sprawdzić, czy ta prośba rzeczywiście została wysłana przez "
+"Ciebie. Z powodów bezpieczeństwa nie możemy jej przetworzyć."
 
 #: pretix/base/templates/csrffail.html:20
 msgid ""
 "Please go back to the last page, refresh this page and then try again. If "
 "the problem persists, please get in touch with us."
 msgstr ""
-"Wróć na poprzednią stronę, odśwież strone, a następnie spróbuj ponownie. Jeśli "
-"problem będzie się utrzymywać, skontaktuj się z nami."
+"Wróć na poprzednią stronę, odśwież strone, a następnie spróbuj ponownie. "
+"Jeśli problem będzie się utrzymywać, skontaktuj się z nami."
 
 #: pretix/base/templates/pretixbase/cachedfiles/pending.html:21
 msgid "We are preparing your file for download …"
@@ -11294,8 +11322,8 @@ msgid ""
 "If this takes longer than a few minutes, please refresh this page or contact "
 "us."
 msgstr ""
-"Jeśli będzie to trwało dłużej niż kilka minut, odśwież stronę lub skontaktuj się "
-"z nami."
+"Jeśli będzie to trwało dłużej niż kilka minut, odśwież stronę lub skontaktuj "
+"się z nami."
 
 #: pretix/base/templates/pretixbase/email/email_footer.html:3
 #, python-format
@@ -11348,8 +11376,7 @@ msgid ""
 "You are receiving this email because someone signed you up for the following "
 "event:"
 msgstr ""
-"Otrzymujesz ten e-mail, ponieważ ktoś zapisał Cię na następujące "
-"wydarzenie:"
+"Otrzymujesz ten e-mail, ponieważ ktoś zapisał Cię na następujące wydarzenie:"
 
 #: pretix/base/templates/pretixbase/email/order_details.html:12
 #: pretix/base/templates/pretixbase/email/order_details.html:62
@@ -11467,8 +11494,9 @@ msgid ""
 "This site is powered by free software. If you want to read the license terms "
 "or obtain the source code, follow these links or instructions:"
 msgstr ""
-"Ta strona jest zasilana bezpłatnym oprogramowaniem. Jeśli chcesz przeczytać warunki licencji "
-"lub uzyskać kod źródłowy, skorzystaj z tych linków lub instrukcji:"
+"Ta strona jest zasilana bezpłatnym oprogramowaniem. Jeśli chcesz przeczytać "
+"warunki licencji lub uzyskać kod źródłowy, skorzystaj z tych linków lub "
+"instrukcji:"
 
 #: pretix/base/ticketoutput.py:179
 msgid "Enable ticket format"
@@ -11863,10 +11891,10 @@ msgid ""
 "translated and will show in English instead. You can <a "
 "href=\"{translate_url}\" target=\"_blank\">help translating</a>."
 msgstr ""
-"Tłumaczenia te nie są utrzymywane przez zespół Pretrix. Nie odpowiadamy "
-"za ich poprawność, a nowe lub niedawno zmienione funkcje mogły jeszcze nie zostać "
-"przetłumaczone i zamiast tego pokażą się po angielsku. Możesz <a "
-"href=\"{translate_url}\" target=\"_blank\">Pomóc w tłumaczeniu</a>."
+"Tłumaczenia te nie są utrzymywane przez zespół Pretrix. Nie odpowiadamy za "
+"ich poprawność, a nowe lub niedawno zmienione funkcje mogły jeszcze nie "
+"zostać przetłumaczone i zamiast tego pokażą się po angielsku. Możesz <a href="
+"\"{translate_url}\" target=\"_blank\">Pomóc w tłumaczeniu</a>."
 
 #: pretix/control/forms/__init__.py:334
 msgid "Development only"
@@ -12131,8 +12159,8 @@ msgid ""
 "None of the currently configured payment methods will cause an invoice to be "
 "issued before payment."
 msgstr ""
-"Żadna z aktualnie skonfigurowanych metod płatności nie spowoduje "
-"wystawienia faktury przed płatnością."
+"Żadna z aktualnie skonfigurowanych metod płatności nie spowoduje wystawienia "
+"faktury przed płatnością."
 
 #: pretix/control/forms/event.py:921
 #, fuzzy
@@ -25399,8 +25427,8 @@ msgid ""
 "download the badges in the backend or automatically print them with our "
 "check-in apps."
 msgstr ""
-"Automatycznie generuj odznaki lub znaczniki nazw dla swoich uczestników. Możesz "
-"pobrać odznaki w backendzie lub automatycznie wydrukować je z naszej "
+"Automatycznie generuj odznaki lub znaczniki nazw dla swoich uczestników. "
+"Możesz pobrać odznaki w backendzie lub automatycznie wydrukować je z naszej "
 "aplikacji odprawy."
 
 #: pretix/plugins/badges/exporters.py:89
@@ -30529,7 +30557,9 @@ msgstr "Dziękujemy!"
 #: pretix/presale/templates/pretixpresale/event/order.html:14
 #: pretix/presale/templates/pretixpresale/event/order.html:32
 msgid "Your order has been placed successfully. See below for details."
-msgstr "Twoje zamówienie zostało pomyślnie złożone. Szczegółowe informacje znajdują się poniżej."
+msgstr ""
+"Twoje zamówienie zostało pomyślnie złożone. Szczegółowe informacje znajdują "
+"się poniżej."
 
 #: pretix/presale/templates/pretixpresale/event/order.html:16
 #: pretix/presale/templates/pretixpresale/event/order.html:48
@@ -30973,8 +31003,8 @@ msgid ""
 "you placed using this email address."
 msgstr ""
 "Jeśli zgubiłeś link do zamówienia lub zamówień, wprowadź adres e-mail, który "
-"użyłeś składając zamówienie. Wyślemy Ci wiadomość e-mail z linkami do wszystkich zamówień "
-"złożonych za pomocą tego adresu e-mail."
+"użyłeś składając zamówienie. Wyślemy Ci wiadomość e-mail z linkami do "
+"wszystkich zamówień złożonych za pomocą tego adresu e-mail."
 
 #: pretix/presale/templates/pretixpresale/event/resend_link.html:30
 msgid "Send links"
@@ -30999,8 +31029,8 @@ msgid ""
 "For the selected date, there are currently no products available that can be "
 "bought with this voucher. Please try a different date or a different voucher."
 msgstr ""
-"W wybranym terminie nie ma dostępnych produktów, które mogą być "
-"kupione za pomocą tego vouchera. Sprawdź inną datę lub inny voucher."
+"W wybranym terminie nie ma dostępnych produktów, które mogą być kupione za "
+"pomocą tego vouchera. Sprawdź inną datę lub inny voucher."
 
 #: pretix/presale/templates/pretixpresale/event/voucher.html:47
 msgid ""
@@ -31015,8 +31045,8 @@ msgid ""
 "You entered a voucher code that allows you to buy one of the following "
 "products at the specified price:"
 msgstr ""
-"Wpisałeś kod voucheru, który pozwala kupić jeden z poniższych "
-"produktów po wskazanej cenie:"
+"Wpisałeś kod voucheru, który pozwala kupić jeden z poniższych produktów po "
+"wskazanej cenie:"
 
 #: pretix/presale/templates/pretixpresale/event/voucher.html:113
 #, python-format
@@ -31059,9 +31089,8 @@ msgid ""
 "number of tickets."
 msgstr ""
 "Pamiętaj, że otrzymasz tylko jeden bilet. Jeśli potrzebujesz wielu biletów, "
-"musisz wpisać się na listę rezerwową więcej razy, podając różne "
-"adresy e-mail. Nie ma gwarancji, że otrzymasz określoną "
-"liczbę biletów."
+"musisz wpisać się na listę rezerwową więcej razy, podając różne adresy e-"
+"mail. Nie ma gwarancji, że otrzymasz określoną liczbę biletów."
 
 #: pretix/presale/templates/pretixpresale/event/waitinglist.html:39
 msgid "Add me to the list"
@@ -31080,8 +31109,8 @@ msgid ""
 "list so we can pass it on to the next person waiting as quickly as possible!"
 msgstr ""
 "Zostałeś wybrany z naszej listy rezerwowej do zakup biletu. Jeśli nie "
-"potrzebujesz już biletu, prosimy o usunięcie biletu z "
-"lista, abyśmy mogli go jak najszybciej przekazać następnej osobie na liście rezerwowej!"
+"potrzebujesz już biletu, prosimy o usunięcie biletu z lista, abyśmy mogli go "
+"jak najszybciej przekazać następnej osobie na liście rezerwowej!"
 
 #: pretix/presale/templates/pretixpresale/event/waitinglist_remove.html:16
 msgctxt "waitinglist"
@@ -31180,8 +31209,7 @@ msgstr "Otwórz okno ponownie"
 #: pretix/presale/templates/pretixpresale/fragment_modals.html:27
 msgid ""
 "Once the process in the new window has been completed, you can continue here."
-msgstr ""
-"Po zakończeniu procesu w nowym oknie możesz kontynuować tutaj."
+msgstr "Po zakończeniu procesu w nowym oknie możesz kontynuować tutaj."
 
 #: pretix/presale/templates/pretixpresale/fragment_modals.html:69
 msgid "Adjust settings in detail"
@@ -31249,8 +31277,8 @@ msgid ""
 "If you're looking to buy a ticket, you need to follow a direct link to an "
 "event or organizer profile."
 msgstr ""
-"Jeśli chcesz kupić bilet, musisz kliknąć bezpośredni link do "
-"profil wydarzenia lub organizatora."
+"Jeśli chcesz kupić bilet, musisz kliknąć bezpośredni link do profil "
+"wydarzenia lub organizatora."
 
 #: pretix/presale/templates/pretixpresale/index.html:20
 #, python-format
@@ -31489,8 +31517,8 @@ msgid ""
 "Your selected payment method can only be used for a payment of at least "
 "{amount}."
 msgstr ""
-"Twoja wybrana metoda płatności może być używana w przypadku płatności w wysokości co najmniej "
-"{amount}."
+"Twoja wybrana metoda płatności może być używana w przypadku płatności w "
+"wysokości co najmniej {amount}."
 
 #: pretix/presale/views/cart.py:183
 msgid "Please enter positive numbers only."
@@ -31537,8 +31565,8 @@ msgid ""
 "Your account has been created. Please follow the link in the email we sent "
 "you to activate your account and choose a password."
 msgstr ""
-"Twoje konto zostało utworzone. Kliknij link w wysłanym przez nas e-mailu "
-"aby aktywować swoje konto i wybrać hasło."
+"Twoje konto zostało utworzone. Kliknij link w wysłanym przez nas e-mailu aby "
+"aktywować swoje konto i wybrać hasło."
 
 #: pretix/presale/views/customer.py:268 pretix/presale/views/customer.py:271
 #: pretix/presale/views/customer.py:556 pretix/presale/views/customer.py:562
@@ -31553,7 +31581,8 @@ msgstr "Twoje nowe hasło zostało ustawione! Możesz go teraz użyć do logowan
 msgid ""
 "We've sent you an email with further instructions on resetting your password."
 msgstr ""
-"Wysłaliśmy Ci wiadomość e-mail z dalszymi instrukcjami na temat resetowania hasła."
+"Wysłaliśmy Ci wiadomość e-mail z dalszymi instrukcjami na temat resetowania "
+"hasła."
 
 #: pretix/presale/views/customer.py:524
 msgid ""
@@ -31561,9 +31590,9 @@ msgid ""
 "your email address. The email address of your account will be changed as "
 "soon as you click that link."
 msgstr ""
-"Twoje zmiany zostały zapisane. Wysłaliśmy Ci e-mail z linkiem do aktualizacji "
-"twojego adresu e-mail. Adres e-mail Twojego konta zostanie zmieniony "
-"po kliknięciu tego linku."
+"Twoje zmiany zostały zapisane. Wysłaliśmy Ci e-mail z linkiem do "
+"aktualizacji twojego adresu e-mail. Adres e-mail Twojego konta zostanie "
+"zmieniony po kliknięciu tego linku."
 
 #: pretix/presale/views/customer.py:573
 msgid ""
@@ -31590,7 +31619,8 @@ msgstr ""
 
 #: pretix/presale/views/event.py:844
 msgid "Unknown event code or not authorized to access this event."
-msgstr "Nieznany kod zdarzenia lub nieupoważniony do dostępu do tego wydarzenia."
+msgstr ""
+"Nieznany kod zdarzenia lub nieupoważniony do dostępu do tego wydarzenia."
 
 #: pretix/presale/views/event.py:851
 msgctxt "subevent"
@@ -31656,7 +31686,9 @@ msgstr "Pobieranie biletów nie jest (jeszcze) włączone dla tego zamówienia."
 
 #: pretix/presale/views/order.py:1076
 msgid "Please click the link we sent you via email to download your tickets."
-msgstr "Kliknij link, który wysłaliśmy za pośrednictwem poczty elektronicznej, aby pobrać bilety."
+msgstr ""
+"Kliknij link, który wysłaliśmy za pośrednictwem poczty elektronicznej, aby "
+"pobrać bilety."
 
 #: pretix/presale/views/order.py:1557
 #, python-brace-format
@@ -31664,8 +31696,8 @@ msgid ""
 "The order has been changed. You can now proceed by paying the open amount of "
 "{amount}."
 msgstr ""
-"Zamówienie zostało zmienione. Możesz teraz kontynuować, dokonując płatności różnicy. "
-"{amount}."
+"Zamówienie zostało zmienione. Możesz teraz kontynuować, dokonując płatności "
+"różnicy. {amount}."
 
 #: pretix/presale/views/order.py:1569
 msgid "You did not make any changes."
@@ -31677,7 +31709,9 @@ msgstr "Nie możesz zmienić zamówienia w sposób, która obniża całkowitą c
 
 #: pretix/presale/views/order.py:1595
 msgid "You may only change your order in a way that increases the total price."
-msgstr "Możesz zmienić swoje zamówienie tylko w sposób, który zwiększa całkowitą cenę."
+msgstr ""
+"Możesz zmienić swoje zamówienie tylko w sposób, który zwiększa całkowitą "
+"cenę."
 
 #: pretix/presale/views/order.py:1597
 msgid "You may not change your order in a way that changes the total price."
@@ -31713,14 +31747,17 @@ msgid ""
 "{number} hours. If the email did not arrive, please check your spam folder "
 "and also double check that you used the correct email address."
 msgstr ""
-"Jeśli wprowadzony przez Ciebie adres e-mail jest poprawny i powiązany z biletem, "
-"to już wcześniej wysłaliśmy Ci e-mail z odnośnikiem do Twojego biletu w ciągu ostatnich "
-"{number} godzin. Jeżeli e-mail nie dotarł, proszę sprawdzić folder ze spamem "
-"oraz upewnić się, że wprowadziłeś poprawny adres e-mail."
+"Jeśli wprowadzony przez Ciebie adres e-mail jest poprawny i powiązany z "
+"biletem, to już wcześniej wysłaliśmy Ci e-mail z odnośnikiem do Twojego "
+"biletu w ciągu ostatnich {number} godzin. Jeżeli e-mail nie dotarł, proszę "
+"sprawdzić folder ze spamem oraz upewnić się, że wprowadziłeś poprawny adres "
+"e-mail."
 
 #: pretix/presale/views/user.py:91
 msgid "We have trouble sending emails right now, please check back later."
-msgstr "Mamy obecnie problemy z wysyłaniem e-maili, prosimy spróbować ponownie później. "
+msgstr ""
+"Mamy obecnie problemy z wysyłaniem e-maili, prosimy spróbować ponownie "
+"później."
 
 #: pretix/presale/views/user.py:94
 msgid ""
@@ -31739,8 +31776,8 @@ msgid ""
 "You cannot add yourself to the waiting list as this product is currently "
 "available."
 msgstr ""
-"Nie możesz dodać się do listy oczekujących, ponieważ ten produkt jest obecnie "
-"dostępny."
+"Nie możesz dodać się do listy oczekujących, ponieważ ten produkt jest "
+"obecnie dostępny."
 
 #: pretix/presale/views/waiting.py:132
 #, python-brace-format
@@ -31762,8 +31799,8 @@ msgid ""
 "Your waiting list spot is no longer valid or already used. There's nothing "
 "more to do here."
 msgstr ""
-"Twoje miejsce na liście oczekujących wygasło lub zostało zajęte. Nie możesz nic więcej "
-"z tym zrobić."
+"Twoje miejsce na liście oczekujących wygasło lub zostało zajęte. Nie możesz "
+"nic więcej z tym zrobić."
 
 #: pretix/presale/views/waiting.py:174
 msgid ""
