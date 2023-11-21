@@ -8186,8 +8186,8 @@ msgid ""
 "The selected base position does not allow you to add this product as an add-"
 "on."
 msgstr ""
-"Wybrana pozycja podstawowa nie pozwala dodawać tego produktu jako "
-"produktdodatkowy."
+"Wybrana pozycja podstawowa nie pozwala dodawać tego produktu jako produkt "
+"dodatkowy."
 
 #: pretix/base/services/orders.py:1496
 msgid "You need to choose a subevent for the new position."
@@ -10586,7 +10586,7 @@ msgid "Set a new password for your account at {organizer}"
 msgstr "Ustaw nowe hasło dla swojego konta w {organizer}"
 
 #: pretix/base/settings.py:2626
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "Hello {name},\n"
 "\n"
@@ -10604,7 +10604,7 @@ msgid ""
 "\n"
 "Your {organizer} team"
 msgstr ""
-"Witaj {nazwa},\n"
+"Witaj {name},\n"
 "\n"
 "Prosiłaś(eś) o nowe hasło do swojego konta w {organizer},\n"
 "\n"
