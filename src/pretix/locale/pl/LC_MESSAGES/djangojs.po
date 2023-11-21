@@ -80,10 +80,8 @@ msgid "SOFORT"
 msgstr "SOFORT"
 
 #: pretix/plugins/paypal2/static/pretixplugins/paypal2/pretix-paypal.js:46
-#, fuzzy
-#| msgid "Yes"
 msgid "eps"
-msgstr "Tak"
+msgstr "eps"
 
 #: pretix/plugins/paypal2/static/pretixplugins/paypal2/pretix-paypal.js:47
 msgid "MyBank"
@@ -135,11 +133,8 @@ msgstr "Mercado Pago"
 
 #: pretix/plugins/paypal2/static/pretixplugins/paypal2/pretix-paypal.js:167
 #: pretix/plugins/webcheckin/static/pretixplugins/webcheckin/main.js:48
-#, fuzzy
-#| msgctxt "widget"
-#| msgid "Continue"
 msgid "Continue"
-msgstr "Dalej"
+msgstr "Kontynuuj"
 
 #: pretix/plugins/paypal2/static/pretixplugins/paypal2/pretix-paypal.js:225
 #: pretix/plugins/stripe/static/pretixplugins/stripe/pretix-stripe.js:204
@@ -256,7 +251,8 @@ msgstr "Bilet nieopłacony"
 
 #: pretix/plugins/webcheckin/static/pretixplugins/webcheckin/main.js:50
 msgid "This ticket is not yet paid. Do you want to continue anyways?"
-msgstr "Ten bilet nie jest jeszcze opłacony. Czy chcesz kontynuować pomimo tego?"
+msgstr ""
+"Ten bilet nie jest jeszcze opłacony. Czy chcesz kontynuować pomimo tego?"
 
 #: pretix/plugins/webcheckin/static/pretixplugins/webcheckin/main.js:51
 msgid "Additional information required"
@@ -867,8 +863,8 @@ msgid ""
 "There are currently a lot of users in this ticket shop. Please open the shop "
 "in a new tab to continue."
 msgstr ""
-"Obecnie w tym sklepie biletowym jest wielu użytkowników. Otwórz sklep "
-"w nowej zakładce by kontynuować."
+"Obecnie w tym sklepie biletowym jest wielu użytkowników. Otwórz sklep w "
+"nowej zakładce by kontynuować."
 
 #: pretix/static/pretixpresale/js/widget/widget.js:40
 #, fuzzy
@@ -889,8 +885,9 @@ msgid ""
 "We could not create your cart, since there are currently too many users in "
 "this ticket shop. Please click \"Continue\" to retry in a new tab."
 msgstr ""
-"Nie mogliśmy stworzyć twojego koszyka, ponieważ obecnie jest zbyt wielu użytkowników "
-"w tym sklepie. Kliknij \"Kontynuuj\", aby spróbować ponownie w nowej karcie."
+"Nie mogliśmy stworzyć twojego koszyka, ponieważ obecnie jest zbyt wielu "
+"użytkowników w tym sklepie. Kliknij \"Kontynuuj\", aby spróbować ponownie w "
+"nowej karcie."
 
 #: pretix/static/pretixpresale/js/widget/widget.js:44
 msgctxt "widget"
@@ -991,9 +988,9 @@ msgid ""
 "add yourself to the waiting list. We will then notify if seats are available "
 "again."
 msgstr ""
-"Niektóre lub wszystkie kategorie biletów są obecnie wyprzedane. Jeśli chcesz to możesz "
-"dodać się do listy oczekujących. Powiadomimy Cię gdy miejsca będą dostępne "
-"ponownie."
+"Niektóre lub wszystkie kategorie biletów są obecnie wyprzedane. Jeśli chcesz "
+"to możesz dodać się do listy oczekujących. Powiadomimy Cię gdy miejsca będą "
+"dostępne ponownie."
 
 #: pretix/static/pretixpresale/js/widget/widget.js:63
 msgctxt "widget"
