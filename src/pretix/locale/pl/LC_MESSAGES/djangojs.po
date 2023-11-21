@@ -294,7 +294,7 @@ msgstr "Wejście niedozwolone"
 
 #: pretix/plugins/webcheckin/static/pretixplugins/webcheckin/main.js:60
 msgid "Ticket code revoked/changed"
-msgstr "Kod biletu cofnięty / zmieniony"
+msgstr "Kod biletu cofnięty/zmieniony"
 
 #: pretix/plugins/webcheckin/static/pretixplugins/webcheckin/main.js:61
 msgid "Ticket blocked"
@@ -890,7 +890,7 @@ msgid ""
 "this ticket shop. Please click \"Continue\" to retry in a new tab."
 msgstr ""
 "Nie mogliśmy stworzyć twojego koszyka, ponieważ obecnie jest zbyt wielu użytkowników "
-"w tym sklepie. Kliknij \ „Kontynuuj \”, aby spróbować ponownie w nowej karcie."
+"w tym sklepie. Kliknij \"Kontynuuj\", aby spróbować ponownie w nowej karcie."
 
 #: pretix/static/pretixpresale/js/widget/widget.js:44
 msgctxt "widget"
