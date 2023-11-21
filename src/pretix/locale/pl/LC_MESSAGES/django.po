@@ -3450,7 +3450,7 @@ msgstr "Zabronione przez niestandardową regułę"
 
 #: pretix/base/models/checkin.py:361
 msgid "Ticket code revoked/changed"
-msgstr "Kod biletu cofnięty / zmieniony"
+msgstr "Kod biletu cofnięty/zmieniony"
 
 #: pretix/base/models/checkin.py:362
 msgid "Information required"
