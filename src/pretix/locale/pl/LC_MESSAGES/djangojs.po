@@ -275,10 +275,8 @@ msgid "Information required"
 msgstr "Wymagane informacje"
 
 #: pretix/plugins/webcheckin/static/pretixplugins/webcheckin/main.js:56
-#, fuzzy
-#| msgid "Unknown error."
 msgid "Unknown ticket"
-msgstr "Nieznany błąd."
+msgstr "Bilet nieznany"
 
 #: pretix/plugins/webcheckin/static/pretixplugins/webcheckin/main.js:57
 msgid "Ticket type not allowed here"
@@ -441,11 +439,8 @@ msgid "Product"
 msgstr "Produkt"
 
 #: pretix/static/pretixcontrol/js/ui/checkinrules.js:97
-#, fuzzy
-#| msgctxt "widget"
-#| msgid "See variations"
 msgid "Product variation"
-msgstr "Możliwe warianty"
+msgstr "Wariant produktu"
 
 #: pretix/static/pretixcontrol/js/ui/checkinrules.js:101
 msgid "Gate"
