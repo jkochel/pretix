@@ -3218,32 +3218,24 @@ msgid "Included taxes"
 msgstr "Podatki"
 
 #: pretix/base/invoice.py:829
-#, fuzzy, python-brace-format
-#| msgctxt "invoice"
-#| msgid ""
-#| "Using the conversion rate of 1:{rate} as published by the European "
-#| "Central Bank on {date}, this corresponds to:"
+#, python-brace-format
 msgctxt "invoice"
 msgid ""
 "Using the conversion rate of 1:{rate} as published by the {authority} on "
 "{date}, this corresponds to:"
 msgstr ""
-"Używając kursu wymiany 1:{rate} opublikowanego przez Europejski Bank "
-"Centrylny w dniu {date}, odpowiada to:"
+"Używając kursu wymiany 1:{rate} opublikowanego przez {authority} w dniu "
+"{date}, odpowiada to:"
 
 #: pretix/base/invoice.py:844
-#, fuzzy, python-brace-format
-#| msgctxt "invoice"
-#| msgid ""
-#| "Using the conversion rate of 1:{rate} as published by the European "
-#| "Central Bank on {date}, the invoice total corresponds to {total}."
+#, python-brace-format
 msgctxt "invoice"
 msgid ""
 "Using the conversion rate of 1:{rate} as published by the {authority} on "
 "{date}, the invoice total corresponds to {total}."
 msgstr ""
-"Używając kursu wymiany 1:{rate} opublikowanego przez Europejski Bank "
-"Centrylny w dniu {date}, suma faktury wynosi: {total}.."
+"Używając kursu wymiany 1:{rate} opublikowanego przez {authority} w dniu "
+"{date}, suma faktury wynosi: {total}.."
 
 #: pretix/base/invoice.py:858
 msgid "Modern Invoice Renderer (pretix 2.7)"
