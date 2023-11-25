@@ -5737,7 +5737,7 @@ msgstr "Wykorzystany"
 
 #: pretix/base/models/vouchers.py:205
 msgid "Minimum usages"
-msgstr "Minimalna ilość użyć"
+msgstr "Minimalna ilość użyć"
 
 #: pretix/base/models/vouchers.py:206
 msgid ""
@@ -20147,7 +20147,7 @@ msgstr ""
 
 #: pretix/control/templates/pretixcontrol/order/index.html:318
 msgid "Email invoices"
-msgstr "Faktury e -mail"
+msgstr "Faktury e-mail"
 
 #: pretix/control/templates/pretixcontrol/order/index.html:327
 #: pretix/control/templates/pretixcontrol/order/index.html:339
@@ -30010,7 +30010,7 @@ msgstr "Podatki"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:482
 msgid "The items in your cart are reserved for you for %(minutes)s minutes."
-msgstr "Produkty w koszyku są dla Ciebie zarezerwowane przez %(minut)."
+msgstr "Produkty w koszyku są dla Ciebie zarezerwowane przez %(minutes)s minut."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:486
 msgid ""
@@ -30134,8 +30134,7 @@ msgid ""
 "The organizer will get in touch with you to clarify the details of your "
 "refund."
 msgstr ""
-"Organizator skontaktuje się z tobą, aby wyjaśnić szczegóły Twojego "
-"zwrotu."
+"Organizator skontaktuje się z tobą, aby wyjaśnić szczegóły Twojego zwrotu."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:152
 #: pretix/presale/templates/pretixpresale/event/order.html:382
@@ -30146,8 +30145,8 @@ msgid ""
 "The refund will be issued in form of a gift card that you can use for "
 "further purchases."
 msgstr ""
-"Zwrot zostanie wydany w formie karty podarunkowej, której można użyć "
-"dalsze zakupy."
+"Zwrot zostanie wydany w formie karty podarunkowej, której można użyć dalsze "
+"zakupy."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:155
 #: pretix/presale/templates/pretixpresale/event/order_cancel.html:147
@@ -30178,8 +30177,8 @@ msgid ""
 "You might not be able to use any of the tickets in your order until this "
 "payment has been received."
 msgstr ""
-"Możesz nie być w stanie użyć żadnego z biletów w zamówieniu "
-"do czasu potwierdzenia odbioru płatności."
+"Możesz nie być w stanie użyć żadnego z biletów w zamówieniu do czasu "
+"potwierdzenia odbioru płatności."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_checkoutflow.html:2
 msgctxt "checkoutflow"
@@ -31048,7 +31047,7 @@ msgstr "od %(minprice)s"
 
 #: pretix/presale/templates/pretixpresale/event/voucher.html:422
 msgid "You need to select at least %(number)s products."
-msgstr "Musisz wybrać co najmniej %(liczbę) produktów."
+msgstr "Musisz wybrać co najmniej %(number)s produktów."
 
 #: pretix/presale/templates/pretixpresale/event/waitinglist.html:5
 msgid "Add me to the waiting list"
