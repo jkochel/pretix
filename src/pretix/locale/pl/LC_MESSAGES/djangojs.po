@@ -740,6 +740,7 @@ msgid "Select %s"
 msgstr "Wybierz %s"
 
 #: pretix/static/pretixpresale/js/widget/widget.js:22
+msgctxt "widget"
 msgid "Select variant %s"
 msgstr "Wybierz wariant %s"
 
@@ -830,6 +831,7 @@ msgstr ""
 "nowej zakładce by kontynuować."
 
 #: pretix/static/pretixpresale/js/widget/widget.js:40
+msgctxt "widget"
 msgid "Open ticket shop"
 msgstr "Otwarty sklep z biletami"
 
@@ -928,6 +930,7 @@ msgid "Next week"
 msgstr "W przyszłym tygodniu."
 
 #: pretix/static/pretixpresale/js/widget/widget.js:60
+msgctxt "widget"
 msgid "Previous week"
 msgstr "Poprzedni tydzień"
 

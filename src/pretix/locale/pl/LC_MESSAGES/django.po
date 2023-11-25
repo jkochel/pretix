@@ -3240,6 +3240,7 @@ msgid "Modern Invoice Renderer (pretix 2.7)"
 msgstr "Modern Invoice Renderer (pretix 2.7)"
 
 #: pretix/base/invoice.py:947
+msgctxt "invoice"
 msgid "(Please quote at all times.)"
 msgstr "(Proszę, cytuj przez cały czas.)"
 
@@ -3583,6 +3584,7 @@ msgid "Dates can be mixed without limitation"
 msgstr "Daty mogą być mieszane bez ograniczeń"
 
 #: pretix/base/models/discount.py:46
+msgctxt "subevent"
 msgid "All matching products must be for the same date"
 msgstr "Wszystkie pasujące produkty muszą być na tą samą datę"
 
@@ -30277,11 +30279,13 @@ msgid "Add to Calendar"
 msgstr "Dodaj do kalendarza"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_order_status.html:8
+msgctxt "order state"
 msgid "Confirmation pending"
 msgstr "Oczekiwanie na potwierdzenie"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_order_status.html:12
 #: pretix/presale/templates/pretixpresale/event/fragment_order_status.html:23
+msgctxt "order state"
 msgid "Confirmed"
 msgstr "Potwierdzono"
 
