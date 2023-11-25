@@ -3002,6 +3002,7 @@ msgid "Invalid placeholder(s): %(value)s"
 msgstr "Nieprawidłowy(e) symbol(e) zastępstwa: %(value)s"
 
 #: pretix/base/forms/widgets.py:67
+#, python-format
 msgid "Sample: %s"
 msgstr "Próbka: %s"
 
@@ -30011,6 +30012,7 @@ msgid "incl. %(tax_sum)s taxes"
 msgstr "Podatki"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:482
+#, python-format
 msgid "The items in your cart are reserved for you for %(minutes)s minutes."
 msgstr "Produkty w koszyku są dla Ciebie zarezerwowane przez %(minutes)s minut."
 
@@ -31050,6 +31052,7 @@ msgid "from %(minprice)s"
 msgstr "od %(minprice)s"
 
 #: pretix/presale/templates/pretixpresale/event/voucher.html:422
+#, python-format
 msgid "You need to select at least %(number)s products."
 msgstr "Musisz wybrać co najmniej %(number)s produktów."
 

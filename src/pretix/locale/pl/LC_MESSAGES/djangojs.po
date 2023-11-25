@@ -740,6 +740,7 @@ msgid "Select %s"
 msgstr "Wybierz %s"
 
 #: pretix/static/pretixpresale/js/widget/widget.js:22
+#, javascript-format
 msgctxt "widget"
 msgid "Select variant %s"
 msgstr "Wybierz wariant %s"
