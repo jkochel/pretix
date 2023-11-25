@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-13 15:14+0000\n"
-"PO-Revision-Date: 2023-11-19 21:52+0000\n"
+"PO-Revision-Date: 2023-11-25 13:23+0000\n"
 "Last-Translator: c0de-bender <code-bender@mailbox.org>\n"
 "Language-Team: Polish <https://translate.pretix.eu/projects/pretix/pretix-js/"
 "pl/>\n"
@@ -331,8 +331,9 @@ msgstr ""
 #: pretix/static/pretixbase/js/asynctask.js:63
 #: pretix/static/pretixbase/js/asynctask.js:140
 msgid "Your request has been queued on the server and will soon be processed."
-msgstr "Twoje żądanie zostało ustawione w kolejce na serwerze i wkrótce "
-"zostanie przetworzone."
+msgstr ""
+"Twoje żądanie zostało ustawione w kolejce na serwerze i wkrótce zostanie "
+"przetworzone."
 
 #: pretix/static/pretixbase/js/asynctask.js:69
 #: pretix/static/pretixbase/js/asynctask.js:146
@@ -650,27 +651,23 @@ msgstr[1] "({num} daty więcej)"
 msgstr[2] "({num} dat więcej)"
 
 #: pretix/static/pretixpresale/js/ui/cart.js:43
-#, fuzzy
-#| msgid "The items in your cart are no longer reserved for you."
 msgid ""
 "The items in your cart are no longer reserved for you. You can still "
 "complete your order as long as they’re available."
-msgstr "Przedmioty w koszyku nie są już zarezerwowane."
+msgstr ""
+"Przedmioty w koszyku nie są już zarezerwowane. Nadal możesz dokończyć "
+"zamówienie, jeżeli produkty są jeszcze dostępne."
 
 #: pretix/static/pretixpresale/js/ui/cart.js:45
 msgid "Cart expired"
 msgstr "Koszyk wygasł"
 
 #: pretix/static/pretixpresale/js/ui/cart.js:50
-#, fuzzy
-#| msgid "The items in your cart are reserved for you for one minute."
-#| msgid_plural ""
-#| "The items in your cart are reserved for you for {num} minutes."
 msgid "The items in your cart are reserved for you for one minute."
 msgid_plural "The items in your cart are reserved for you for {num} minutes."
 msgstr[0] "Przedmioty w koszyku są zarezerwowane na jedną minutę."
-msgstr[1] "Przedmioty w koszyku są zarezerwowane na {num} minuty."
-msgstr[2] "Przedmioty w koszyku są zarezerwowane na {num} minut."
+msgstr[1] "Przedmioty w koszyku są zarezerwowane na {num} minuty."
+msgstr[2] "Przedmioty w koszyku są zarezerwowane na {num} minut."
 
 #: pretix/static/pretixpresale/js/ui/main.js:171
 #, fuzzy

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 14:27+0000\n"
-"PO-Revision-Date: 2023-11-20 12:15+0000\n"
+"PO-Revision-Date: 2023-11-25 18:20+0000\n"
 "Last-Translator: c0de-bender <code-bender@mailbox.org>\n"
 "Language-Team: Polish <https://translate.pretix.eu/projects/pretix/pretix/pl/"
 ">\n"
@@ -3866,8 +3866,8 @@ msgid ""
 "If selected, this event will show up publicly on the list of dates for your "
 "event."
 msgstr ""
-"Jeśli zostanie wybrane, to wydarzenie pojawi się publicznie na liście dat dla twojego "
-"wydarzenia."
+"Jeśli zostanie wybrane, to wydarzenie pojawi się publicznie na liście dat "
+"dla twojego wydarzenia."
 
 #: pretix/base/models/event.py:1444 pretix/base/settings.py:2933
 msgid "Frontpage text"
@@ -4313,8 +4313,8 @@ msgid ""
 "This product will be hidden from the event page until the user enters a "
 "voucher that unlocks this product."
 msgstr ""
-"Ten produkt będzie ukryty na stronie wydarzenia, dopóki użytkownik nie wprowadzi "
-"kuponu, który odblokowuje ten produkt."
+"Ten produkt będzie ukryty na stronie wydarzenia, dopóki użytkownik nie "
+"wprowadzi kuponu, który odblokowuje ten produkt."
 
 #: pretix/base/models/items.py:537
 msgid ""
@@ -7193,22 +7193,21 @@ msgstr ""
 "poniżej."
 
 #: pretix/base/services/cart.py:116
-#, fuzzy, python-format
-#| msgid "You cannot generate an invoice for this order."
+#, python-format
 msgid "You cannot select more than %s item per order."
 msgid_plural "You cannot select more than %s items per order."
-msgstr[0] "Nie możesz wygenerować faktury dla tego zamówienia."
-msgstr[1] "Nie możesz wygenerować faktury dla tego zamówienia."
-msgstr[2] "Nie możesz wygenerować faktury dla tego zamówienia."
+msgstr[0] "Nie możesz wybrać więcej niż %s sztuk na zamówienie."
+msgstr[1] "Nie możesz wybrać więcej niż %s sztuk na zamówienie."
+msgstr[2] "Nie możesz wybrać więcej niż %s sztuk na zamówienie."
 
 #: pretix/base/services/cart.py:120 pretix/base/services/orders.py:1506
 #, python-format
 msgid "You cannot select more than %(max)s item of the product %(product)s."
 msgid_plural ""
 "You cannot select more than %(max)s items of the product %(product)s."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Nie możesz wybrać więcej niż %(max)s sztuk produktu: %(product)s."
+msgstr[1] "Nie możesz wybrać więcej niż %(max)s sztuk produktu: %(product)s."
+msgstr[2] "Nie możesz wybrać więcej niż %(max)s sztuk produktu: %(product)s."
 
 #: pretix/base/services/cart.py:125 pretix/base/services/orders.py:1511
 #, fuzzy, python-format
@@ -7687,7 +7686,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "invoice"
 msgid "Please complete your payment before {expire_date}."
-msgstr "Dokończ płatność przed {expire_date}."
+msgstr "Proszę dokończyć płatność przed {expire_date}."
 
 #: pretix/base/services/invoices.py:115
 #, python-brace-format
@@ -15738,7 +15737,7 @@ msgstr "Ogólne"
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:42
 #: pretix/presale/templates/pretixpresale/event/order.html:85
 msgid "Payment"
-msgstr ""
+msgstr "Płatność"
 
 #: pretix/control/navigation.py:73 pretix/control/views/event.py:1451
 #: pretix/control/views/event.py:1453 pretix/control/views/event.py:1485
@@ -18616,13 +18615,13 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/fragment_quota_box_paid.html:3
 #, python-format
 msgid "Currently available: %(num)s"
-msgstr ""
+msgstr "Obecnie dostępne: %(num)s"
 
 #: pretix/control/templates/pretixcontrol/giftcards/checkout_confirm.html:4
-#, fuzzy, python-format
-#| msgid "This order is not yet approved by the event organizer."
+#, python-format
 msgid "Your gift card %(card)s will be used to pay for this order."
-msgstr "Zamówienie nie zostało jeszcze potwierdzone przez organizatora."
+msgstr ""
+"Twoja karta prezentowa %(card)s będzie użyta do opłacenia tego zamówienia."
 
 #: pretix/control/templates/pretixcontrol/global_license.html:8
 msgid ""
@@ -19269,7 +19268,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/organizers/index.html:108
 #: pretix/presale/views/widget.py:402
 msgid "Sold out"
-msgstr ""
+msgstr "Wyprzedane"
 
 #: pretix/control/templates/pretixcontrol/items/index.html:7
 msgid ""
@@ -25629,7 +25628,7 @@ msgstr ""
 #: pretix/plugins/banktransfer/signals.py:47
 #: pretix/plugins/banktransfer/signals.py:84
 msgid "Bank transfer"
-msgstr ""
+msgstr "Przelew"
 
 #: pretix/plugins/banktransfer/apps.py:39
 msgid ""
@@ -25918,7 +25917,7 @@ msgstr ""
 
 #: pretix/plugins/banktransfer/tasks.py:170
 msgid "The order has already been canceled."
-msgstr ""
+msgstr "Zamówienie zostało już anulowane."
 
 #: pretix/plugins/banktransfer/tasks.py:176
 #: pretix/plugins/banktransfer/views.py:106
@@ -26736,6 +26735,9 @@ msgid ""
 "payment details. You will then be redirected back here to review and confirm "
 "your order."
 msgstr ""
+"Po kliknięciu \"Kontynuuj\" przekierujemy Cię do PayPal w celu płatności. Po "
+"dokonaniu płatności system przekieruje Cię z powrotem tutaj by potwierdzić "
+"zamówienie."
 
 #: pretix/plugins/paypal/templates/pretixplugins/paypal/control.html:7
 #: pretix/plugins/paypal2/templates/pretixplugins/paypal2/control.html:6
@@ -29130,10 +29132,8 @@ msgid "plus taxes"
 msgstr "Podatki"
 
 #: pretix/presale/forms/order.py:132
-#, fuzzy
-#| msgid "This product is currently not available."
 msgid "No other variation of this product is currently available for you."
-msgstr "Produkt obecnie niedostępny"
+msgstr "Nie ma obecnie innych wariantów tego produktu, które byłyby dostępne."
 
 #: pretix/presale/forms/order.py:137
 #, fuzzy
@@ -29329,10 +29329,8 @@ msgid "Cart expired"
 msgstr "Koszyk wygasł"
 
 #: pretix/presale/templates/pretixpresale/event/checkout_base.html:36
-#, fuzzy
-#| msgid "Show value at"
 msgid "Show full cart"
-msgstr "Pokaż wartość w"
+msgstr "Pokaż cały koszyk"
 
 #: pretix/presale/templates/pretixpresale/event/checkout_base.html:48
 #: pretix/presale/templates/pretixpresale/event/index.html:78
@@ -29343,11 +29341,11 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:9
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:10
 msgid "Review order"
-msgstr ""
+msgstr "Weryfikuj zamówienie"
 
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:12
 msgid "Please review the details below and confirm your order."
-msgstr ""
+msgstr "Proszę sprawdzić szczegóły poniżej i potwierdzić zamówienie."
 
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:14
 msgid "Please hang tight, we're finalizing your order!"
@@ -29667,10 +29665,8 @@ msgstr "od %(from_price)s do %(to_price)s"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_addon_choice.html:97
 #: pretix/presale/templates/pretixpresale/event/fragment_product_list.html:89
-#, fuzzy
-#| msgid "Product variation"
 msgid "Hide variants"
-msgstr "Wariant produktu"
+msgstr "Ukryj warianty"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_addon_choice.html:99
 #: pretix/presale/templates/pretixpresale/event/fragment_product_list.html:91
@@ -29689,10 +29685,8 @@ msgstr "Pokaż warianty"
 #: pretix/presale/templates/pretixpresale/event/fragment_product_list.html:271
 #: pretix/presale/templates/pretixpresale/event/voucher.html:145
 #: pretix/presale/templates/pretixpresale/event/voucher.html:298
-#, fuzzy
-#| msgid "Original price"
 msgid "Original price:"
-msgstr "Cena oryginalna"
+msgstr "Cena oryginalna:"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_addon_choice.html:132
 #: pretix/presale/templates/pretixpresale/event/fragment_addon_choice.html:270
@@ -29779,11 +29773,9 @@ msgstr "Dodaj  %(item)s, %(var)s  do koszyka"
 #: pretix/presale/templates/pretixpresale/event/fragment_product_list.html:358
 #: pretix/presale/templates/pretixpresale/event/voucher.html:228
 #: pretix/presale/templates/pretixpresale/event/voucher.html:379
-#, fuzzy
-#| msgid "Presale not started"
 msgctxt "checkbox"
 msgid "Select"
-msgstr "Przedsprzedaż nierozpoczęta"
+msgstr "Wybierz"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_addon_choice.html:203
 #: pretix/presale/templates/pretixpresale/event/fragment_addon_choice.html:345
@@ -29996,13 +29988,12 @@ msgid "Current value:"
 msgstr "Wartość netto"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:451
-#, fuzzy, python-format
-#| msgid "Product"
+#, python-format
 msgid "One product"
 msgid_plural "%(num)s products"
-msgstr[0] "Produkt"
-msgstr[1] "Produkt"
-msgstr[2] "Produkt"
+msgstr[0] "Jeden produkt"
+msgstr[1] "%(num)s produkty"
+msgstr[2] "%(num)s produktów"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:465
 #, fuzzy, python-format
@@ -30014,15 +30005,15 @@ msgstr "Podatki"
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:482
 #, python-format
 msgid "The items in your cart are reserved for you for %(minutes)s minutes."
-msgstr "Produkty w koszyku są dla Ciebie zarezerwowane przez %(minutes)s minut."
+msgstr "Produkty w koszyku są zarezerwowanie przez %(minutes)s minut."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:486
 msgid ""
 "The items in your cart are no longer reserved for you. You can still "
 "complete your order as long as they’re available."
 msgstr ""
-"Produkty w koszyku nie są już dla Ciebie zarezerwowane. Ciągle możesz "
-"dokończyć zamówienie, jeśli są dostępne."
+"Przedmioty w koszyku nie są już zarezerwowane. Nadal możesz dokończyć "
+"zamówienie, jeżeli produkty są jeszcze dostępne."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:490
 msgid "Overview of your ordered products."
@@ -30341,7 +30332,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/fragment_quota_left.html:4
 #, python-format
 msgid "%(num)s currently available"
-msgstr ""
+msgstr "%(num)s obecnie dostępne"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar.html:5
 #: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar_week.html:5
@@ -30536,6 +30527,10 @@ msgid ""
 "cannot find the link, click on the following button to request the link to "
 "your order to be sent to you again."
 msgstr ""
+"Jeśli chcesz zobaczyć lub zmienić status i szczegóły swojego zamówienia, "
+"kliknij link w jednym z e-maili, które wysłaliśmy Ci w trakcie procesu "
+"zamówienia. Jeśli nie możesz znaleźć linku, kliknij poniższy przycisk, aby "
+"poprosić o ponowne przesłanie linku do zamówienia."
 
 #: pretix/presale/templates/pretixpresale/event/index.html:256
 msgid "Resend order link"
@@ -30605,11 +30600,11 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/order.html:95
 #, python-format
 msgid "Please complete your payment before %(date)s"
-msgstr ""
+msgstr "Proszę dokończyć płatność przed %(date)s"
 
 #: pretix/presale/templates/pretixpresale/event/order.html:107
 msgid "Re-try payment or choose another payment method"
-msgstr ""
+msgstr "Spróbuj ponownie, lub wybierz inną metodę płatności"
 
 #: pretix/presale/templates/pretixpresale/event/order.html:125
 msgid ""
