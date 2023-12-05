@@ -1,0 +1,522 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-28 15:26+0000\n"
+"PO-Revision-Date: 2023-11-27 17:00+0000\n"
+"Last-Translator: c0de-bender <code-bender@mailbox.org>\n"
+"Language-Team: Polish <https://translate.pretix.eu/projects/pretix/pretix/pl/"
+">\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.1.1\n"
+
+#: pretix/base/models/giftcards.py:81
+#: pretix/control/templates/pretixcontrol/organizers/giftcard.html:50
+#, fuzzy
+msgid "Owned by ticket holder"
+msgstr "Data i czas"
+
+#: pretix/base/models/items.py:632
+#, fuzzy
+msgid "Validity"
+msgstr "Zapłacone zamówienia"
+
+#: pretix/base/models/orders.py:342 pretix/plugins/sendmail/forms.py:243
+#: pretix/plugins/sendmail/forms.py:397 pretix/plugins/sendmail/views.py:269
+#, fuzzy
+msgid "approval pending"
+msgstr "w toku"
+
+#: pretix/base/models/orders.py:344
+#, fuzzy
+msgctxt "order state"
+msgid "pending (confirmed)"
+msgstr "Niedopłacone (ale potwierdzone)"
+
+#: pretix/base/models/orders.py:346
+#, fuzzy
+msgid "canceled (paid fee)"
+msgstr "Opłacone (lub anulowane z opłaconym odstępnym)"
+
+#: pretix/base/models/orders.py:983
+#, python-brace-format
+msgid "The voucher \"{voucher}\" no longer has sufficient budget."
+msgstr ""
+
+#: pretix/base/models/orders.py:984
+#, python-brace-format
+msgid "The voucher \"{voucher}\" has been used in the meantime."
+msgstr ""
+
+#: pretix/base/models/orders.py:2075
+#: pretix/control/templates/pretixcontrol/order/refund_choose.html:197
+#, fuzzy
+msgid "Refund reason"
+msgstr "Opcja pytania"
+
+#: pretix/base/payment.py:1455
+#, fuzzy
+msgid "This gift card is already used for your payment."
+msgstr "Identyfikator użyty przy innym pytaniu."
+
+#: pretix/base/payment.py:1537
+#, fuzzy
+msgid "This gift card is not accepted by this event organizer."
+msgstr "Zamówienie nie zostało jeszcze potwierdzone przez organizatora."
+
+#: pretix/base/services/cart.py:134 pretix/base/services/orders.py:154
+#: pretix/presale/templates/pretixpresale/event/index.html:157
+#: pretix/presale/views/waiting.py:104 pretix/presale/views/widget.py:730
+#, fuzzy
+msgid "The booking period for this event has not yet started."
+msgstr "Zakończenie wydarzenie musi mieć miejsce przed jego rozpoczęciem."
+
+#: pretix/base/services/cart.py:135
+#, fuzzy
+msgid "The booking period for this event has ended."
+msgstr "Produkt może być kupiony tylko przy użyciu vouchera."
+
+#: pretix/base/services/invoices.py:523
+#, python-brace-format
+msgid "New invoice: {number}"
+msgstr ""
+
+#: pretix/base/services/orders.py:155
+#, fuzzy
+msgid "The booking period has ended."
+msgstr "Produkt może być kupiony tylko przy użyciu vouchera."
+
+#: pretix/base/views/errors.py:63
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for 'same-origin' requests."
+msgstr ""
+
+#: pretix/control/templates/pretixcontrol/event/widget.html:39
+#: pretix/control/templates/pretixcontrol/event/widget.html:52
+#, python-format
+msgid ""
+"JavaScript is disabled in your browser. To access our ticket shop without "
+"JavaScript, please &lt;a %(a_attr)s&gt;click here&lt;/a&gt;."
+msgstr ""
+
+#: pretix/control/templates/pretixcontrol/order/change.html:7
+#: pretix/control/templates/pretixcontrol/order/change.html:13
+#: pretix/presale/templates/pretixpresale/event/order_change.html:5
+#: pretix/presale/templates/pretixpresale/event/order_change.html:10
+#: pretix/presale/templates/pretixpresale/event/order_change_confirm.html:6
+#: pretix/presale/templates/pretixpresale/event/order_change_confirm.html:11
+#, python-format
+msgid "Change order: %(code)s"
+msgstr ""
+
+#: pretix/control/templates/pretixcontrol/order/change.html:18
+#: pretix/control/templates/pretixcontrol/order/change_contact.html:12
+#: pretix/control/templates/pretixcontrol/order/change_locale.html:12
+#: pretix/control/templates/pretixcontrol/order/change_questions.html:12
+#: pretix/control/templates/pretixcontrol/order/extend.html:12
+#: pretix/control/templates/pretixcontrol/order/mail_history.html:10
+#: pretix/control/templates/pretixcontrol/order/pay.html:12
+#: pretix/control/templates/pretixcontrol/order/pay_complete.html:12
+#: pretix/control/templates/pretixcontrol/order/reactivate.html:12
+#: pretix/control/templates/pretixcontrol/order/refund_choose.html:14
+#: pretix/control/templates/pretixcontrol/order/refund_done.html:12
+#: pretix/control/templates/pretixcontrol/order/refund_process.html:13
+#: pretix/control/templates/pretixcontrol/order/refund_start.html:12
+#: pretix/control/templates/pretixcontrol/order/sendmail.html:10
+#: pretix/control/templates/pretixcontrol/order/transactions.html:11
+#, python-format
+msgid "Back to order %(order)s"
+msgstr ""
+
+#: pretix/control/templates/pretixcontrol/order/change.html:68
+#, python-format
+msgid "Add-On to position #%(posid)s"
+msgstr ""
+
+#: pretix/control/templates/pretixcontrol/order/change.html:97
+#: pretix/control/templates/pretixcontrol/order/change.html:391
+msgid "Change to"
+msgstr ""
+
+#: pretix/control/templates/pretixcontrol/order/change.html:295
+#: pretix/control/templates/pretixcontrol/order/change.html:336
+#: pretix/control/templates/pretixcontrol/order/change.html:364
+msgid "Add product"
+msgstr ""
+
+#: pretix/control/templates/pretixcontrol/order/change.html:454
+#: pretix/presale/templates/pretixpresale/event/order_change_confirm.html:30
+#: pretix/presale/templates/pretixpresale/event/position_change_confirm.html:30
+msgid "Perform changes"
+msgstr ""
+
+#: pretix/control/views/orders.py:1322
+#, fuzzy
+msgid "Your gift card code"
+msgstr "Karta prezentowa"
+
+#: pretix/control/views/orders.py:1324
+#, python-brace-format
+msgid ""
+"Hello,\n"
+"\n"
+"we have refunded you {amount} for your order.\n"
+"\n"
+"You can use the gift card code {giftcard} to pay for future ticket purchases "
+"in our shop.\n"
+"\n"
+"Your {event} team"
+msgstr ""
+
+#: pretix/control/views/orders.py:2046 pretix/control/views/orders.py:2180
+#: pretix/control/views/orders.py:2217 pretix/presale/views/order.py:1569
+msgid "The order has been changed."
+msgstr ""
+
+#: pretix/control/views/orders.py:2073 pretix/presale/checkoutflow.py:890
+#: pretix/presale/views/order.py:830
+msgid ""
+"We had difficulties processing your input. Please review the errors below."
+msgstr ""
+
+#: pretix/presale/ical.py:88 pretix/presale/ical.py:143
+#, python-brace-format
+msgid "Admission: {datetime}"
+msgstr ""
+
+#: pretix/presale/ical.py:92 pretix/presale/ical.py:148
+#, python-brace-format
+msgid "Organizer: {organizer}"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/base.html:58
+msgid "Footer Navigation"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/checkout_questions.html:51
+#, fuzzy
+msgid "Auto-fill with address"
+msgstr "Adres email"
+
+#: pretix/presale/templates/pretixpresale/event/checkout_questions.html:58
+#: pretix/presale/templates/pretixpresale/event/checkout_questions.html:168
+msgid "Fill form"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/checkout_questions.html:159
+msgid "Auto-fill with profile"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_cart.html:377
+#: pretix/presale/templates/pretixpresale/event/order_giftcard.html:20
+#: pretix/presale/templates/pretixpresale/event/position_giftcard.html:20
+#, fuzzy
+msgid "Current value:"
+msgstr "Wartość netto"
+
+#: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:19
+#, python-format
+msgid ""
+"Change position #%(positionid)s from \"%(old_item)s – %(old_variation)s\" to "
+"\"%(new_item)s – %(new_variation)s\""
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:23
+#, python-format
+msgid ""
+"Change position #%(positionid)s from \"%(old_item)s\" to \"%(new_item)s\""
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:30
+#: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:56
+#: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:81
+#: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:106
+#, python-format
+msgid "Add-on product to position #%(positionid)s"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:40
+#, python-format
+msgid "Change date of position #%(positionid)s from \"%(old)s\" to \"%(new)s\""
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:50
+#, python-format
+msgid "Change price of position #%(positionid)s from %(old)s to %(new)s"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:70
+#, python-format
+msgid "Add position (%(item)s – %(variation)s)"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:74
+#, python-format
+msgid "Add position (%(item)s)"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:95
+#, python-format
+msgid "Remove position #%(positionid)s (%(item)s – %(variation)s)"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:99
+#, python-format
+msgid "Remove position #%(positionid)s (%(item)s)"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:185
+msgid ""
+"Your entire order will be considered unpaid until you paid this difference."
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_event_info.html:20
+#, python-format
+msgid "Begin: %(time)s"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_event_info.html:29
+#, python-format
+msgid "End: %(time)s"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_event_info.html:41
+#, python-format
+msgid "Admission: %(time)s"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_event_info.html:49
+#, python-format
+msgid "Admission: %(datetime)s"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar.html:5
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar_week.html:5
+#, fuzzy
+msgid "calendar navigation"
+msgstr "Wariant produktu"
+
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar.html:10
+#, python-format
+msgid "Show previous month, %(month)s"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar.html:23
+#: pretix/presale/templates/pretixpresale/organizers/calendar.html:24
+msgid "Select month to show"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar.html:40
+#, python-format
+msgid "Show next month, %(month)s"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar_week.html:10
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar_week.html:55
+#, python-format
+msgid "Show previous week, %(week)s"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar_week.html:23
+#: pretix/presale/templates/pretixpresale/organizers/calendar_week.html:26
+msgid "Select week to show"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar_week.html:44
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar_week.html:60
+#, python-format
+msgid "Show next week, %(week)s"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_list.html:26
+#: pretix/presale/templates/pretixpresale/fragment_calendar.html:72
+#: pretix/presale/templates/pretixpresale/fragment_day_calendar.html:93
+#: pretix/presale/templates/pretixpresale/fragment_week_calendar.html:57
+#: pretix/presale/templates/pretixpresale/organizers/index.html:94
+#: pretix/presale/views/widget.py:382
+msgid "Few tickets left"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_list.html:29
+#: pretix/presale/templates/pretixpresale/fragment_calendar.html:75
+#: pretix/presale/templates/pretixpresale/fragment_day_calendar.html:96
+#: pretix/presale/templates/pretixpresale/fragment_week_calendar.html:60
+#: pretix/presale/templates/pretixpresale/organizers/index.html:97
+#: pretix/presale/views/widget.py:387
+msgctxt "available_event_in_list"
+msgid "Buy now"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_list.html:31
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_list.html:46
+#: pretix/presale/templates/pretixpresale/fragment_calendar.html:77
+#: pretix/presale/templates/pretixpresale/fragment_calendar.html:92
+#: pretix/presale/templates/pretixpresale/fragment_day_calendar.html:98
+#: pretix/presale/templates/pretixpresale/fragment_day_calendar.html:114
+#: pretix/presale/templates/pretixpresale/fragment_week_calendar.html:62
+#: pretix/presale/templates/pretixpresale/fragment_week_calendar.html:77
+#: pretix/presale/templates/pretixpresale/organizers/index.html:99
+#: pretix/presale/templates/pretixpresale/organizers/index.html:114
+#: pretix/presale/views/widget.py:389 pretix/presale/views/widget.py:412
+msgid "Book now"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_list.html:42
+#: pretix/presale/templates/pretixpresale/fragment_calendar.html:88
+#: pretix/presale/templates/pretixpresale/fragment_day_calendar.html:110
+#: pretix/presale/templates/pretixpresale/fragment_week_calendar.html:73
+#: pretix/presale/templates/pretixpresale/organizers/index.html:110
+#: pretix/presale/views/widget.py:404
+msgid "Fully booked"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_list.html:51
+#: pretix/presale/templates/pretixpresale/organizers/index.html:119
+#, python-format
+msgid "Sale starts %(date)s"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/fragment_subevent_list.html:56
+#: pretix/presale/templates/pretixpresale/organizers/index.html:124
+msgid "Not yet on sale"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/order.html:152
+#, python-format
+msgid ""
+"We've issued your refund of %(amount)s as a gift card. On your next purchase "
+"with us, you can use the following gift card code during payment:"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/order.html:180
+#, python-format
+msgid ""
+"A refund of %(amount)s has been sent to you. Depending on the payment "
+"method, please allow for up to 14 days until it shows up on your statement."
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/order.html:348
+#, fuzzy
+msgctxt "action"
+msgid "Change or cancel your order"
+msgstr "Może zmienić ustawienia organizatora"
+
+#: pretix/presale/templates/pretixpresale/event/order.html:363
+#, fuzzy
+msgid "Change order"
+msgstr "Może edytować"
+
+#: pretix/presale/templates/pretixpresale/event/order_cancel.html:117
+#: pretix/presale/templates/pretixpresale/event/order_cancel.html:138
+#, python-format
+msgid "Your gift card will be valid until %(expiry_date)s."
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/order_cancel.html:126
+msgid "I want the refund as a gift card for later purchases"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/order_cancel.html:132
+msgid "I want the refund to be sent to my original payment method"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/order_cancel.html:154
+#: pretix/presale/templates/pretixpresale/event/order_cancel.html:185
+msgid "The following payment methods will be used to refund the money to you:"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/order_giftcard.html:10
+#: pretix/presale/templates/pretixpresale/event/position_giftcard.html:10
+#, python-format
+msgid "Gift card: %(code)s"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/event/position.html:46
+#, python-format
+msgid ""
+"This order is managed for you by %(email)s. Please contact them for any "
+"questions regarding payment, cancellation or changes to this order."
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/fragment_calendar.html:52
+#: pretix/presale/templates/pretixpresale/fragment_day_calendar.html:65
+#: pretix/presale/templates/pretixpresale/fragment_week_calendar.html:37
+#, fuzzy
+msgid "(continued)"
+msgstr "Kontynuuj"
+
+#: pretix/presale/templates/pretixpresale/fragment_calendar.html:61
+#: pretix/presale/templates/pretixpresale/fragment_week_calendar.html:46
+#, fuzzy
+msgctxt "timerange"
+msgid "until"
+msgstr "Data i czas"
+
+#: pretix/presale/templates/pretixpresale/fragment_calendar.html:98
+#, python-format
+msgid ""
+"\n"
+"                                                        from %(start_date)s\n"
+"                                                    "
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/fragment_day_calendar.html:24
+#, fuzzy
+msgctxt "day calendar"
+msgid "Single events"
+msgstr "Cena oryginalna"
+
+#: pretix/presale/templates/pretixpresale/fragment_day_calendar.html:119
+#, python-format
+msgid ""
+"\n"
+"                                    from %(start_date)s\n"
+"                                "
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/fragment_modals.html:74
+#, fuzzy
+msgid "Required cookies"
+msgstr "Zewnętrzny zwrot płatności"
+
+#: pretix/presale/templates/pretixpresale/fragment_modals.html:95
+msgctxt "cookie_usage"
+msgid "Social features"
+msgstr ""
+
+#: pretix/presale/templates/pretixpresale/fragment_modals.html:114
+#, fuzzy
+msgid "Save selection"
+msgstr "Aktywny"
+
+#: pretix/presale/templates/pretixpresale/fragment_week_calendar.html:82
+#, python-format
+msgid ""
+"\n"
+"                                        from %(start_date)s\n"
+"                                    "
+msgstr ""
+
+#: pretix/presale/views/order.py:501
+#, fuzzy
+msgid "An invoice has been generated."
+msgstr "Produkt może być kupiony tylko przy użyciu vouchera."
+
+#: pretix/presale/views/widget.py:343
+#, fuzzy
+msgid "This ticket shop is currently disabled."
+msgstr "Produkt obecnie niedostępny"
+
+
