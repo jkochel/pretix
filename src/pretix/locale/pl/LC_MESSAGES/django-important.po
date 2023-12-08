@@ -31,7 +31,9 @@ msgstr "Ta karta podarunkowa nie jest już ważna."
 
 #: pretix/base/payment.py:1539
 msgid "This gift card was used in the meantime. Please try again."
-msgstr "Ta karta podarunkowa została wykorzystana w międzyczasie. Proszę spróbuj ponownie."
+msgstr ""
+"Ta karta podarunkowa została wykorzystana w międzyczasie. Proszę spróbuj "
+"ponownie."
 
 #: pretix/base/services/cart.py:125 pretix/base/services/orders.py:1511
 #, python-format
@@ -209,8 +211,8 @@ msgid ""
 "After completing your purchase, we will ask you to transfer the money to our "
 "bank account, using a personal reference code."
 msgstr ""
-"Po sfinalizowaniu zakupu poprosimy Cię o przelanie pieniędzy na nasze konto bankowe, "
-"korzystając z osobistego kodu referencyjnego."
+"Po sfinalizowaniu zakupu poprosimy Cię o przelanie pieniędzy na nasze konto "
+"bankowe, korzystając z osobistego kodu referencyjnego."
 
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/control.html:28
 msgid "Transfer amount"
@@ -243,8 +245,8 @@ msgid ""
 "Scan this image with your banking app’s QR-Reader to start the payment "
 "process."
 msgstr ""
-"Zeskanuj ten obraz za pomocą czytnika QR aplikacji bankowej, aby rozpocząć proces płatności. "
-"aby rozpocząć proces płatności."
+"Zeskanuj ten obraz za pomocą czytnika QR aplikacji bankowej, aby rozpocząć "
+"proces płatności."
 
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/pending.html:94
 msgid "Open BezahlCode in your banking app to start the payment process."
@@ -274,8 +276,8 @@ msgid ""
 "We were unable to process your payment. See below for details on how to "
 "proceed."
 msgstr ""
-"Nie mogliśmy przetworzyć Twojej płatności. "
-"Poniżej znajdziesz szczegóły dotyczące dalszego postępowania."
+"Nie mogliśmy przetworzyć Twojej płatności. Poniżej znajdziesz szczegóły "
+"dotyczące dalszego postępowania."
 
 #: pretix/plugins/paypal/payment.py:435 pretix/plugins/paypal/payment.py:444
 #: pretix/plugins/paypal2/payment.py:726
@@ -283,8 +285,8 @@ msgid ""
 "PayPal has not yet approved the payment. We will inform you as soon as the "
 "payment completed."
 msgstr ""
-"PayPal nie zatwierdził jeszcze płatności. "
-"Poinformujemy Cię jak tylko płatność zostanie zakończona."
+"PayPal nie zatwierdził jeszcze płatności. Poinformujemy Cię jak tylko "
+"płatność zostanie zakończona."
 
 #: pretix/plugins/paypal/templates/pretixplugins/paypal/checkout_payment_confirm.html:3
 #: pretix/plugins/paypal2/templates/pretixplugins/paypal2/checkout_payment_confirm.html:19
@@ -292,8 +294,8 @@ msgid ""
 "The total amount listed above will be withdrawn from your PayPal account "
 "after the confirmation of your purchase."
 msgstr ""
-"Całkowita kwota podana powyżej zostanie pobrana z Twojego konta "
-"PayPal po potwierdzeniu zakupu."
+"Całkowita kwota podana powyżej zostanie pobrana z Twojego konta PayPal po "
+"potwierdzeniu zakupu."
 
 #: pretix/plugins/paypal/templates/pretixplugins/paypal/pending.html:4
 #: pretix/plugins/paypal2/templates/pretixplugins/paypal2/pending.html:4
@@ -301,8 +303,8 @@ msgid ""
 "Our attempt to execute your Payment via PayPal has failed. Please try again "
 "or contact us."
 msgstr ""
-"Nasza próba zrealizowania płatności za pośrednictwem systemu PayPal nie powiodła się. "
-"Spróbuj ponownie lub skontaktuj się z nami."
+"Nasza próba zrealizowania płatności za pośrednictwem systemu PayPal nie "
+"powiodła się. Spróbuj ponownie lub skontaktuj się z nami."
 
 #: pretix/plugins/paypal/templates/pretixplugins/paypal/pending.html:8
 #: pretix/plugins/paypal2/templates/pretixplugins/paypal2/pending.html:8
@@ -310,8 +312,8 @@ msgid ""
 "We're waiting for an answer from PayPal regarding your payment. Please "
 "contact us, if this takes more than a few hours."
 msgstr ""
-"Czekamy na odpowiedź od PayPal w sprawie Twojej płatności. "
-"Jeśli zajmie to więcej niż kilka godzin, skontaktuj się z nami."
+"Czekamy na odpowiedź od PayPal w sprawie Twojej płatności. Jeśli zajmie to "
+"więcej niż kilka godzin, skontaktuj się z nami."
 
 #: pretix/plugins/paypal/templates/pretixplugins/paypal/redirect.html:17
 #: pretix/plugins/paypal2/templates/pretixplugins/paypal2/redirect.html:17
@@ -323,7 +325,9 @@ msgstr "Proces płatności rozpoczął się w nowym oknie."
 #: pretix/plugins/paypal2/templates/pretixplugins/paypal2/redirect.html:20
 #: pretix/plugins/stripe/templates/pretixplugins/stripe/redirect.html:20
 msgid "The window to enter your payment data was not opened or was closed?"
-msgstr "Okno do wprowadzenia danych płatności nie zostało otwarte lub zostało zamknięte?"
+msgstr ""
+"Okno do wprowadzenia danych płatności nie zostało otwarte lub zostało "
+"zamknięte?"
 
 #: pretix/plugins/paypal/templates/pretixplugins/paypal/redirect.html:25
 #: pretix/plugins/paypal2/templates/pretixplugins/paypal2/redirect.html:25
@@ -355,7 +359,8 @@ msgstr "Wystąpił bład podczas łączenia z PayPal, spróbuj ponownie."
 msgid ""
 "Something went wrong when requesting the payment status. Please try again."
 msgstr ""
-"Coś poszło nie tak podczas żądania statusu płatności. Proszę spróbuj ponownie."
+"Coś poszło nie tak podczas żądania statusu płatności. Proszę spróbuj "
+"ponownie."
 
 #: pretix/plugins/paypal2/payment.py:463 pretix/plugins/paypal2/payment.py:947
 msgid "You may need to enable JavaScript for PayPal payments."
@@ -387,7 +392,7 @@ msgstr "Płatność w toku."
 
 #: pretix/plugins/paypal2/templates/pretixplugins/paypal2/checkout_payment_confirm.html:12
 msgid "Please click on the \"Pay now\" button below to confirm your payment."
-msgstr "Kliknij poniższy przycisk \ „Pay Now \”, aby potwierdzić płatność."
+msgstr "Kliknij poniższy przycisk \"Pay Now\", aby potwierdzić płatność."
 
 #: pretix/plugins/paypal2/templates/pretixplugins/paypal2/checkout_payment_confirm.html:15
 msgid "We will then charge your PayPal account and finalize the order."
@@ -398,14 +403,14 @@ msgid ""
 "After placing your order, you will be able to select your desired payment "
 "method, including PayPal."
 msgstr ""
-"Po złożeniu zamówienia będziesz mógł wybrać żądaną metodę płatności "
-"w tym PayPal."
+"Po złożeniu zamówienia będziesz mógł wybrać żądaną metodę płatności w tym "
+"PayPal."
 
 #: pretix/plugins/paypal2/templates/pretixplugins/paypal2/checkout_payment_form.html:5
 msgid ""
 "Please click the \"Pay with PayPal\" button below to start your payment."
 msgstr ""
-"Kliknij przycisk \ „Pay With PayPal \” poniżej, aby rozpocząć płatność."
+"Kliknij przycisk \"Pay With PayPal\" poniżej, aby rozpocząć płatność."
 
 #: pretix/plugins/paypal2/templates/pretixplugins/paypal2/control.html:24
 msgid "Capture status"
@@ -517,7 +522,7 @@ msgstr "Okres rezerwacji tego wydarzenia dobiegł końca."
 #: pretix/presale/views/widget.py:725
 #, python-format
 msgid "The booking period for this event will start on %(date)s at %(time)s."
-msgstr "Okres rezerwacji tego wydarzenia rozpocznie się %(date)s o %(hour)s."
+msgstr "Okres rezerwacji tego wydarzenia rozpocznie się %(date)s o %(time)s."
 
 #: pretix/presale/templates/pretixpresale/event/index.html:201
 msgid "Join waiting list"
@@ -526,7 +531,9 @@ msgstr "Dołącz do listy oczekujących"
 #: pretix/presale/templates/pretixpresale/event/order.html:16
 #: pretix/presale/templates/pretixpresale/event/order.html:48
 msgid "Your order has been processed successfully! See below for details."
-msgstr "Twoje zamówienie zostało pomyślnie przetworzone! Szczegółowe informacje znajdują się poniżej."
+msgstr ""
+"Twoje zamówienie zostało pomyślnie przetworzone! Szczegółowe informacje "
+"znajdują się poniżej."
 
 #: pretix/presale/templates/pretixpresale/event/order.html:43
 msgid "Please note that we still await your payment to complete the process."
@@ -551,7 +558,7 @@ msgstr "Obecna wartość Twojej karty podarunkowej to %(value)s."
 #: pretix/presale/templates/pretixpresale/event/order.html:169
 #, python-format
 msgid "This gift card is valid until %(expiry)s."
-msgstr "Ta karta podarunkowa jest ważna do %(valid)s."
+msgstr "Ta karta podarunkowa jest ważna do %(expiry)s."
 
 #: pretix/presale/templates/pretixpresale/event/order.html:198
 msgid "Change ordered items"
@@ -569,9 +576,9 @@ msgid ""
 "waiting list. If we notify you, you'll have %(hours)s hours time to buy a "
 "ticket until we assign it to the next person on the list."
 msgstr ""
-"Jeżeli bilety będą ponownie dostępne, poinformujemy o tym pierwsze osoby na liście oczekujących. "
-"Jeśli Cię powiadomimy, będziesz mieć %(hours)s godzin na zakup biletu, "
-"dopóki nie przypiszemy go kolejnej osobie na liście."
+"Jeżeli bilety będą ponownie dostępne, poinformujemy o tym pierwsze osoby na "
+"liście oczekujących. Jeśli Cię powiadomimy, będziesz mieć %(hours)s godzin "
+"na zakup biletu, dopóki nie przypiszemy go kolejnej osobie na liście."
 
 #: pretix/presale/templates/pretixpresale/event/waitinglist_remove.html:5
 msgid "Remove me from the waiting list"
@@ -579,7 +586,8 @@ msgstr "Usuń mnie z listy oczekujących"
 
 #: pretix/presale/views/checkout.py:59
 msgid "The booking period for this event is over or has not yet started."
-msgstr "Okres rezerwacji tego wydarzenia dobiegł końca lub jeszcze się nie rozpoczął."
+msgstr ""
+"Okres rezerwacji tego wydarzenia dobiegł końca lub jeszcze się nie rozpoczął."
 
 #: pretix/presale/views/order.py:1626 pretix/presale/views/order.py:1657
 msgid "You cannot change this order."
