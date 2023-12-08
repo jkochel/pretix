@@ -25361,7 +25361,7 @@ msgstr ""
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/checkout_payment_form.html:26
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/pending.html:39
 msgid "Reference code (important):"
-msgstr "Kod referencyjny (ważny):"
+msgstr "Kod referencyjny (tytuł przelewu) (ważny):"
 
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/checkout_confirm.html:31
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/checkout_payment_form.html:31
@@ -25537,6 +25537,8 @@ msgid ""
 "After you sent the bank transfer, you can close this window. We will send "
 "you an email as soon as we received your payment."
 msgstr ""
+"Po wysłaniu przelewu bankowego możesz zamknąć to okno. Wyślemy wiadomość "
+"e-mail, gdy tylko otrzymaliśmy płatność."
 
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/pending.html:60
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/pending.html:71
@@ -25823,7 +25825,7 @@ msgstr "Ten produkt może być anulowany"
 #: pretix/plugins/banktransfer/views.py:905 pretix/presale/checkoutflow.py:945
 #: pretix/presale/checkoutflow.py:951
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "Proszę wpisać ważny adres e-mail."
 
 #: pretix/plugins/banktransfer/views.py:912
 msgid ""
@@ -29199,9 +29201,8 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:170
-#, fuzzy
 msgid "No attendee name provided"
-msgstr "Imię uczestnika"
+msgstr "Brak nazwiska uczestnika"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:223
 msgid "The image you previously uploaded"
@@ -29481,11 +29482,11 @@ msgstr "Zamówienie potwierdzone"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_downloads.html:14
 msgid "Please check your email account, we've sent you your tickets."
-msgstr ""
+msgstr "Sprawdź konto e-mail, wysłaliśmy Ci bilety."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_downloads.html:16
 msgid "Please check your email account, we've sent you an email."
-msgstr ""
+msgstr "Sprawdź konto e-mail, wysłaliśmy Ci e-mail."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_downloads.html:21
 msgid ""
@@ -29493,18 +29494,24 @@ msgid ""
 "the order clicked the link in the email they received to confirm the email "
 "address is valid."
 msgstr ""
+"Bilety możesz pobrać tutaj, zaraz po tym, jak osoba składająca zamówienie "
+"kliknie link w otrzymanej wiadomości e-mail, aby potwierdzić, że adres "
+"e-mail jest ważny."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_downloads.html:26
 msgid ""
 "If you click the link in our email, you will be able to download your "
 "tickets here."
 msgstr ""
+"Jeśli klikniesz link w naszym e-mailu, będziesz mógł pobrać bilety tutaj."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_downloads.html:30
 msgid ""
 "If the email has no attachment, click the link in our email and you will be "
 "able to download them from here."
 msgstr ""
+"Jeśli wiadomość e-mail nie zawiera załączników kliknij link w naszej "
+"wiadomości e-mail, a będziesz mógł je pobrać stąd."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_downloads.html:57
 #: pretix/presale/templates/pretixpresale/event/fragment_downloads.html:76
@@ -29869,6 +29876,8 @@ msgid ""
 "Please save the following link if you want to access your order later. We "
 "also sent you an email containing the link to the address you specified."
 msgstr ""
+"Zapisz następujący link, jeśli chcesz uzyskać dostęp do zamówienia później. "
+"Wysłaliśmy ten link również na podany przez Ciebie adres również e-mail."
 
 #: pretix/presale/templates/pretixpresale/event/order.html:73
 #: pretix/presale/templates/pretixpresale/event/position.html:18
