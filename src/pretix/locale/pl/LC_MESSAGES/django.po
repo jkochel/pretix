@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-28 15:26+0000\n"
-"PO-Revision-Date: 2023-11-27 17:00+0000\n"
+"PO-Revision-Date: 2023-12-08 08:57+0000\n"
 "Last-Translator: c0de-bender <code-bender@mailbox.org>\n"
 "Language-Team: Polish <https://translate.pretix.eu/projects/pretix/pretix/pl/"
 ">\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.2.1\n"
 
 #: pretix/_base_settings.py:78
 msgid "English"
@@ -25537,8 +25537,8 @@ msgid ""
 "After you sent the bank transfer, you can close this window. We will send "
 "you an email as soon as we received your payment."
 msgstr ""
-"Po wysłaniu przelewu bankowego możesz zamknąć to okno. Wyślemy wiadomość "
-"e-mail, gdy tylko otrzymaliśmy płatność."
+"Po wysłaniu przelewu bankowego możesz zamknąć to okno. Wyślemy wiadomość e-"
+"mail, gdy tylko otrzymaliśmy płatność."
 
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/pending.html:60
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/pending.html:71
@@ -26414,8 +26414,7 @@ msgstr ""
 #: pretix/plugins/paypal2/templates/pretixplugins/paypal2/checkout_payment_form.html:5
 msgid ""
 "Please click the \"Pay with PayPal\" button below to start your payment."
-msgstr ""
-"Kliknij przycisk \"Pay With PayPal\" poniżej, aby rozpocząć płatność."
+msgstr "Kliknij przycisk \"Pay With PayPal\" poniżej, aby rozpocząć płatność."
 
 #: pretix/plugins/paypal2/templates/pretixplugins/paypal2/checkout_payment_form.html:9
 msgid ""
@@ -29495,8 +29494,8 @@ msgid ""
 "address is valid."
 msgstr ""
 "Bilety możesz pobrać tutaj, zaraz po tym, jak osoba składająca zamówienie "
-"kliknie link w otrzymanej wiadomości e-mail, aby potwierdzić, że adres "
-"e-mail jest ważny."
+"kliknie link w otrzymanej wiadomości e-mail, aby potwierdzić, że adres e-"
+"mail jest ważny."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_downloads.html:26
 msgid ""
